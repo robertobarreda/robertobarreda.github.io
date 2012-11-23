@@ -5,7 +5,7 @@
 
     v0.9: 5/28/09
 
-    design and code by: thingsthatarebrown.com 
+    design and code by: thingsthatarebrown.com
                         (matt brown)
 ---------------------------------------------------------------------------------
 */
@@ -67,7 +67,7 @@ ul#flags a {
 	 text-decoration: none;
 }
 ul#flags img {
-	 vertical-align: middle; 
+	 vertical-align: middle;
 	 border: 0px;
 	 margin: 2px;
 	 padding: 2px;
@@ -79,7 +79,7 @@ ul#flags li a:hover {
 	 #pdfc {
 	 	 display: none;
 	 }
-	 #fixedtop { 
+	 #fixedtop {
 	 	 display: none;
 	 }
 }
@@ -146,12 +146,12 @@ h2.desc {
 {
 	display: block;
 	float: right;
-	color: #fff; 
+	color: #fff;
 	background: #666;
 	font-weight: bold;
 	text-decoration: none;
 	margin: 0 0 0 3px;
-	padding: 6px 15px 6px 15px; 
+	padding: 6px 15px 6px 15px;
 }
 
 #navigation ul li a:focus
