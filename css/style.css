@@ -6,3 +6,6 @@
 footer{text-align: center}
 body{font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif}
 .language{width: 65%; margin: 10px 0 0 0; font-weight:bold; }
+@media print {
+    .hidden-print {display: none}
+}
