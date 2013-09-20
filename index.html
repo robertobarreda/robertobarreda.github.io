@@ -15,30 +15,13 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" >
         <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        <link href="css/print.css" rel="stylesheet" media="print">
-        <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.1.css" media="screen" />
         <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
-        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.1.js"></script>
         <!--[if IE 6]><script type="text/javascript" src="http://deathtoie6.com/ie6-not-supported.js" ></script><![endif]-->
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-6157638-1']);
             _gaq.push(['_setDomainName', '.robertobarreda.es']);
             _gaq.push(['_trackPageview']);
-        </script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $("#cv").fancybox({
-                    'widdh' : '75%',
-                    'height' : '80%',
-                    'autoScale' : false,
-                    'transitionIn' : 'none',
-                    'transitionOut' : 'none',
-                    'centerOnScroll': true,
-                    'type' : 'iframe'
-                });
-            });
         </script>
     </head>
     <body>
@@ -68,25 +51,7 @@
                     </p>
                 </div>
 
-                <!-- TODO
-                <div  class="page-header noPrint">
-                    <h2>Last work</h2>
-                </div>
-                <div id="myCarousel" class="carousel noPrint">
-                    <div class="carousel-inner">
-                        <div class="active item">
-                            <img src="images/1.jpg" alt="" />
-                            <div class="carousel-caption">
-                                <h4>1 - Thumbnail label</h4>
-                                <p>Lorem Ipsum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                </div> -->
-
-                <ul id="information-tabs" class="nav nav-pills ">
+                <ul id="information-tabs" class="nav nav-pills hidden-print">
                     <li class="active"><a href="#summary" data-toggle="tab" class="vt-p">Summary</a></li>
                     <li class=""><a href="#experience" data-toggle="tab" class="vt-p">Experience</a></li>
                     <li class=""><a href="#education" data-toggle="tab" class="vt-p">Education</a></li>
@@ -397,8 +362,8 @@
                     <img src="img/glyphicons_392_twitter.png" alt="View Roberto Barreda's Twitter profile" style="vertical-align:text-top" border="0" />
                 </a>
 
-                <a href="#" class="btn btn-large noPrint" id="printBtn"><i class="icon-print"></i> Print</a>
-                <a href="https://docs.google.com/file/d/0B1-182jb9HEYcWdidjN2OHBjbWM/preview" class="btn btn-large noPrint" id="downBtn"><i class="icon-download"></i> Download</a>
+                <a href="#" class="btn btn-large hidden-print" id="printBtn"><i class="icon-print"></i> Print</a>
+                <a href="https://docs.google.com/file/d/0B1-182jb9HEYcWdidjN2OHBjbWM/preview" class="btn btn-large hidden-print" id="downBtn"><i class="icon-download"></i> Download</a>
             </div>
         </div>
 
@@ -412,7 +377,13 @@
             </footer>
         </div>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+              $('#printBtn').click(function(){
+                  print();
+              });
+          });
+        </script>
         <script type="text/javascript">
             (function() {
                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
