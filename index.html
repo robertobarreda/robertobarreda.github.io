@@ -1,386 +1,573 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!doctype html>
+<html>
+	<head>
         <title>Roberto Barreda &mdash; Software Engineer</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
         <meta name="author" content="Roberto Barreda, roberto.barreda@gmail.com">
-        <meta name="keywords" content="roberto, barreda, job, employment, computer, engineer, trabajo, empleo, ingeniero, informatico, c++, cpp, python, mysql, aws, redis, cloud" />
+        <meta name="keywords" content="roberto, barreda, job, employment, computer, engineer, trabajo, empleo, ingeniero, informatico, c++, cpp, python, django, mysql, aws, redis, cloud" />
         <meta name="description" content="To take a challenging and high performance oriented role in the field of Software Engineering and implement the expertise and experience gained in this field to develop complex project with efficiency and quality" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="img/favicon.ico" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic,300,300italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
-        <link href="css/style.css" rel="stylesheet">
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/js/bootstrap.min.js"></script>
-        <script src="//code.jquery.com/jquery.js"></script>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
         <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-        <!--[if IE 6]><script type="text/javascript" src="http://deathtoie6.com/ie6-not-supported.js"></script><![endif]-->
+        <!--[if IE 6]><script type="text/javascript" src="http://deathtoie6.com/ie6-not-supported.js" ></script><![endif]-->
         <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-6157638-1']);
-            _gaq.push(['_setDomainName', '.robertobarreda.es']);
-            _gaq.push(['_trackPageview']);
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-6157638-1', 'robertobarreda.es');
+            ga('send', 'pageview');
         </script>
     </head>
     <body>
-        <div class="container">
-            <div class="span8">
-                <div class="thumbnail span3">
-                    <img src="http://www.gravatar.com/avatar/d69341fbd43cfa68f46da52a18c44741.png?size=270" alt="Roberto Barreda &mdash; Software Engineer" />
-                </div>
-                <div class="hero-unit span4">
-                    <h1>Roberto Barreda</h1>
-                    <h2>Software Engineer</h2>
-                    <p>
-                        <address>
-                            <i class="icon-map-marker"></i>
-                            Barcelona Area, Spain
-                        </address>
-                    </p>
-                </div>
-                <div class="page-header">
-                </div>
-
-                <div class="hero-unit">
-                    <p>
-                        To take a challenging and high performance oriented role in the field of
-                        Computer Engineering and implement the expertise and experience gained in this field to develop
-                        complex project with efficiency and quality
-                    </p>
-                </div>
-
-                <ul id="information-tabs" class="nav nav-pills hidden-print">
-                    <li class="active"><a href="#summary" data-toggle="tab" class="vt-p">Summary</a></li>
-                    <li class=""><a href="#experience" data-toggle="tab" class="vt-p">Experience</a></li>
-                    <li class=""><a href="#education" data-toggle="tab" class="vt-p">Education</a></li>
-                    <li class=""><a href="#language" data-toggle="tab" class="vt-p">Languages</a></li>
-                    <li class=""><a href="#skills" data-toggle="tab" class="vt-p">Skills</a></li>
-                    <li class=""><a href="#interests" data-toggle="tab" class="vt-p">Interests</a></li>
-                </ul>
-
-                <div class="tab-content">
-
-                    <!-- Summary -->
-                    <div class="tab-pane active" id="summary">
-                        <h4>Software design</h4>
-                        <ul>
-                            <li>Good analytic skills to solve efficiently any problem supplemented with strong programming skills.</li>
-                            <li>Deeply interested in scalability and high availability cloud services.</li>
-                        </ul>
-                        <h4>Good team player</h4>
-                        <ul>
-                            <li>Good communicataion and organization skills.</li>
-                            <li>Reliable, organized, co-operative and hard-working.</li>
-                            <li>Familiar with test driven development and working with a distributed team.</li>
-                        </ul>
-                        <h4>Passionate about inovation</h4>
-                        <ul>
-                            <li>Fast learner, I like to work in a complex projects which have scope for learning and challenge.</li>
-                        </ul>
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-md-8 col-xs-push-1 col-md-push-2">
+                        <h1><strong>Roberto Barreda</strong></h1>
+                        <h3>Software Engineer</h3>
+                        <h6>
+                            <address>
+                                <span class="icon"><i class="fa fa-lg fa-location-arrow"></i></span>
+                                Barcelona Area, Spain
+                            </address>
+                        </h6>
                     </div>
-                    <!-- ENDS Summary -->
+                    <div class="col-xs-3 col-md-2">
+                        <img class="media-object img-circle" src="http://www.gravatar.com/avatar/d69341fbd43cfa68f46da52a18c44741?s=200&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 10px;" alt="Roberto Barreda &mdash; Software Engineer" />
 
+                        <br>
+                        <div class="text-left hidden-print" id="contact">
+                            <a href="mailto:roberto.barreda@gmail.com"
+                                alt="Contact Roberto Barreda by email">
+                                <i class="fa fa-2 fa-envelope-o"></i>
+                            </a>
+                            <a href="http://www.linkedin.com/in/robertobarreda"
+                                alt="View Roberto Barreda's LinkedIn profile">
+                                <i class="fa fa-2 fa-linked-in"></i>
+                            </a>
+                            <a href="https://github.com/robertobarreda"
+                                alt="View Roberto Barreda's GitHub profile">
+                                <i class="fa fa-2 fa-github"></i>
+                            </a>
+                            <a href="http://stackoverflow.com/users/67463/"
+                                alt="View Roberto Barreda's StackOverflow profile">
+                                <i class="fa fa-2 fa-stack-overflow"></i>
+                            </a>
+                            <a href="https://twitter.com/roberto_barreda"
+                                alt="View Roberto Barreda's Twitter profile">
+                                <i class="fa fa-2 fa-twitter-square"></i>
+                            </a>
+                            <a href="https://docs.google.com/file/d/0B1-182jb9HEYcWdidjN2OHBjbWM/preview"
+                                alt="View Roberto Barreda's CV" id="downBtn">
+                                <i class="fa fa-2 fa-file-pdf-o"></i>
+                            </a>
+                            <a href="javascript:window.print()" alt="Print">
+                                <i class="fa fa-2 fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-                    <!-- Experience -->
-                    <div class="tab-pane" id="experience">
-                        <table class="table table-hover table-experience">
-                            <tbody>
-                                <tr>
-                                    <td><h4 class="position">Software Engineer</h4>
-                                        <span>Careesma</span><br />
-                                        <span class="date muted"><small>Dec 2012 • Present</small></span>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <dl>
-                                                <dd><a href="http://careesma.com/"/>Careesma</a>
-                                                    develops and operates job board websites with +6 million of unique visitors per month
-                                                    in multiple markets (India, Austria and Poland).</dd>
-                                            </dl>
-                                        </p>
-                                        <p class="tags">
-                                            <span class="label">Python (Django, Gunicorn)</span>
-                                            <span class="label">PHP (ZF)</span>
-                                            <span class="label">MySQL</span>
-                                            <span class="label">Solr</span>
-                                            <span class="label">Redis</span>
-                                            <span class="label">Nginx</span>
-                                            <span class="label">Apache</span>
-                                            <span class="label">SMTP</span>
-                                            <span class="label">Chef</span>
-                                            <span class="label">Mercurial</span>
-                                            <span class="label">AWS (S3, EC2, SES)</span>
-                                            <span class="label">Zenoss</span>
-                                            <span class="label">Graphite</span>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><h4 class="position">Backend Software Engineer</h4>
-                                        <span>Qustodio</span><br />
-                                        <span class="date muted"><small>Jan 2011 • Nov 2012</small></span>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <dl>
-                                                <dd><a href="http://qustodio.com/"/>Qustodio Family Protection</a>
-                                                is the free parental control and internet monitoring software that provides advanced detection and monitoring features.</dd>
-                                                <br />
-                                                <dd>Involved with every aspect of the development, from the technical design of the features to the implementation,
-                                                     promotion to production, administration and server monitoring for the following services:</dd>
-                                                <dd>&mdash; Data gathering service.</dd>
-                                                <dd>&mdash; Data processing and transforming using Hadoop/Hive.</dd>
-                                                <dd>&mdash; Json REST API.</dd>
-                                            </dl>
-                                        </p>
-                                        <p class="tags">
-                                            <span class="label">Python (Gevent, Gunicorn, Celery)</span>
-                                            <span class="label">PHP (ZF)</span>
-                                            <span class="label">Nginx</span>
-                                            <span class="label">MySQL</span>
-                                            <span class="label">Redis</span>
-                                            <span class="label">Hadoop/Hive</span>
-                                            <span class="label">ZeroMQ</span>
-                                            <span class="label">SVN/Git</span>
-                                            <span class="label">AWS (S3, EC2, DynamodDB, SES, SQS)</span>
-                                            <span class="label">Nagios</span>
-                                            <span class="label">Ganglia</span>
-                                            <span class="label">Graphite</span>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><h4 class="position">Software Engineer</h4>
-                                        <span>Evolium</span><br />
-                                        <span class="date muted"><small>Nov 2008 • Nov 2012</small></span>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <dl>
-                                                <dd><a href="http://evolium.com/">Evolium</a> provides IT security solutions for consumers and businesses.</dd>
-                                                <br />
-                                                <dd>Involved in the design and development of the following projects for a <a href="http://www.avg.com/">well-known antivirus company</a>:</dd>
-                                                <dd>&mdash; Client-side library that provides the communication with different cloud protection and security services.</dd>
-                                                <dd>&mdash; Phishing/Malware protection cloud service for web browsing.
-                                                    Uses heuristics to prevent and detect new and unknown threats.</dd>
-                                                <dd>&mdash; Web application for remote administration of antivirus installed on the stations of an organization.</dd>
-                                            </dl>
-                                        </p>
-                                        <p class="tags">
-                                            <span class="label">C++</span>
-                                            <span class="label">C#</span>
-                                            <span class="label">MySQL</span>
-                                            <span class="label">Nagios</span>
-                                            <span class="label">Munin</span>
-                                        </p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <h4 class="position">Research Assistant</h4>
-                                        <span><abbr title="Broadband Communications Group">CBA</abbr> &mdash; <abbr title="Universitat Politècnica de Catalunya">UPC</abbr></span><br />
-                                        <span class="date muted"><small>Jan 2007 • Nov 2008</small></span>
-                                    </td>
-                                    <td>
-                                        <p>
-                                            <dl>
-                                                <dd>The <a href="http://www.cba.upc.edu/">CBA</a> is a multidisciplinary research group focused on areas related to broadband networks and broadband services</dd>
-                                                <br />
-                                                <dd>Involved in the development of two projects to mesurate the QoS of any kind of network
-                                                    (<a href="http://www.cba.upc.edu/developed-tools/netmeter">NetMeter</a> and <a href="http://www.cba.upc.edu/developed-tools/oreneta">OreNETa</a>).</dd>
-                                                <dd>&mdash; Development of the tools.</dd>
-                                                <dd>&mdash; System administration support tasks.</dd>
-                                                <dd>&mdash; QoS testing and setting up testbeds.</dd>
-                                                <dd>&mdash; Collaboration in the European project <a href="http://www.euqos.eu/">EuQoS</a>.</dd>
-                                            </dl>
-                                        </p>
-                                            <p class="tags">
-                                                <span class="label">C/C++</span>
-                                                <span class="label">Qt4</span>
-                                                <span class="label">XSLT</span>
-                                                <span class="label">QoS</span>
+        <div id="content" class="container-fluid">
+            <section class="col-xs-12 col-md-8 col-md-push-2">
+                <div class="card background-card">
+
+                    <div class="background-details">
+
+                        <!-- About -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-user"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    About
+                                </h4>
+
+                                <ul class="list-unstyled">
+                                    <li class="card card-nested clearfix">
+                                        <div class="content">
+                                            To take a challenging and high performance oriented role in the field of
+                                            Computer Engineering and implement the expertise and experience gained in this field to develop
+                                            complex project with efficiency and quality
+
+                                            <div class="tab-pane active" id="summary">
+                                                <h4>Software design</h4>
+                                                <ul>
+                                                    <li>Good analytic skills to solve efficiently any problem supplemented with strong programming skills.</li>
+                                                    <li>Deeply interested in scalability and high availability cloud services.</li>
+                                                </ul>
+                                                <h4>Good team player</h4>
+                                                <ul>
+                                                    <li>Good communication and organization skills.</li>
+                                                    <li>Reliable, organized, co-operative and hard-working.</li>
+                                                    <li>Familiar with test driven development and working with a distributed team.</li>
+                                                </ul>
+                                                <h4>Passionate about innovation</h4>
+                                                <ul>
+                                                    <li>Fast learner, I like to work in a complex projects which have scope for learning and challenge.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /About -->
+
+                        <!-- Work Experience -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-building"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Work Experience
+                                </h4>
+
+                                <ul class="list-unstyled">
+                                    
+                                    <li class="card card-nested clearfix">
+                                        <div class="content has-sidebar">
+                                            <p><strong>Software Engineer</strong>,&nbsp;Careesma</p>
+                                            <p>
+                                                <a href="http://careesma.com/"/>Careesma</a>
+                                                develops and operates job board websites with +6 million of unique visitors per month
+                                                in multiple markets (India, Austria and Poland).
                                             </p>
-                                        </p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!-- ENDS Experience -->
+                                            
+                                            <ul>
+                                                <li>Development of new features.</li>
+                                                <li>Recoding existing PHP/C++ platform to Python.</li>
+                                                <li>Improve performance and reliability.</li>
+                                            </ul>
 
+                                            <p></p>
+                                            <p class="tags">
+                                                <span class="label label-primary">Python (Django)</span>
+                                                <span class="label label-primary">PHP (ZF)</span>
+                                                <span class="label label-primary">MySQL</span>
+                                                <span class="label label-primary">Solr</span>
+                                                <span class="label label-primary">Redis</span>
+                                                <span class="label label-primary">Nginx</span>
+                                                <span class="label label-primary">Apache</span>
+                                                <span class="label label-primary">SMTP</span>
+                                                <span class="label label-primary">Chef</span>
+                                                <span class="label label-primary">Mercurial</span>
+                                                <span class="label label-primary">AWS (S3, EC2, SES)</span>
+                                                <span class="label label-primary">Zenoss</span>
+                                                <span class="label label-primary">Graphite</span>
+                                            </p>
+                                        </div>
 
-                    <!-- Education -->
-                    <div class="tab-pane" id="education">
-                        <div class="education">
-                            <div class="media">
-                                <a class="pull-left" href="http://www.fib.upc.edu/">
-                                  <img class="media-object" alt="64x64" style="width: 64px; height: 64px;"
-                                    title="Universitat Politècnica de Catalunya" src="img/upc.png">
-                                </a>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Facultat d'Informàtica de Barcelona</h4>
-                                    <p>
-                                        <span class="date muted"><small>2003 • 2008</small></span>
-                                        Degree in Informatics Engineering <br />
-                                        <small>Specialized in Telematic networks and operating systems</small>
-                                    </p>
+                                        <div class="sidebar text-muted text-center">
+                                            <p>
+                                                Dec, 2012
+                                            </p>
+                                            <p>
+                                                -
+                                            </p>
+                                            <p>
+                                                Present
+                                            </p>
+                                        </div>
+                                    </li>
+
+                                    <li class="card card-nested clearfix">
+                                        <div class="content has-sidebar">
+                                            <p><strong>Software Engineer</strong>,&nbsp;Qustodio</p>
+                                            <p>
+                                                <a href="http://qustodio.com/"/>Qustodio Family Protection</a>
+                                                is the free parental control and internet monitoring software that provides advanced detection
+                                                and monitoring features.
+                                            </p>
+                                            
+                                            <ul>
+                                                <li>Involved with every aspect of the development, from the technical design of the features to the implementation, promotion to production, administration and server monitoring.</li>
+                                                <li>Development of the data gathering service.</li>
+                                                <li>Development of the data processing and transforming using Hadoop/Hive.</li>
+                                                <li>Json REST API.</li>
+                                            </ul>
+
+                                            <p></p>
+                                            <p class="tags">
+                                                <span class="label label-primary">Python (Gevent, Gunicorn, Celery)</span>
+                                                <span class="label label-primary">PHP (ZF)</span>
+                                                <span class="label label-primary">Nginx</span>
+                                                <span class="label label-primary">MySQL</span>
+                                                <span class="label label-primary">Redis</span>
+                                                <span class="label label-primary">Hadoop/Hive</span>
+                                                <span class="label label-primary">ZeroMQ</span>
+                                                <span class="label label-primary">SVN/Git</span>
+                                                <span class="label label-primary">AWS (S3, EC2, DynamoDB, SES, SQS)</span>
+                                                <span class="label label-primary">Nagios</span>
+                                                <span class="label label-primary">Ganglia</span>
+                                                <span class="label label-primary">Graphite</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="sidebar text-muted text-center">
+                                            <p>
+                                                Jan, 2011
+                                            </p>
+                                            <p>
+                                                -
+                                            </p>
+                                            <p>
+                                                Nov, 2012
+                                            </p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="card card-nested clearfix">
+                                        <div class="content has-sidebar">
+                                            <p><strong>Software Engineer</strong>,&nbsp;Evolium</p>
+                                            <p>
+                                                <a href="http://evolium.com/">Evolium</a> provides IT security solutions for consumers and businesses.
+                                            </p>
+                                            
+                                            <ul>
+                                                <li>Involved in the design and development of the following projects for a <a href="http://www.avg.com/">well-known antivirus company</a>.</li>
+                                                <li>Client-side library that provides the communication with different cloud protection and security services.</li>
+                                                <li>Phishing/Malware protection cloud service for web browsing.  li Uses heuristics to prevent and detect new and unknown threats.</li>
+                                                <li>Web application for remote administration of antivirus installed on the stations of an organization.</li>
+                                            </ul>
+
+                                            <p></p>
+                                            <p class="tags">
+                                                <span class="label label-primary">C++</span>
+                                                <span class="label label-primary">C#</span>
+                                                <span class="label label-primary">MySQL</span>
+                                                <span class="label label-primary">Nagios</span>
+                                                <span class="label label-primary">Munin</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="sidebar text-muted text-center">
+                                            <p>
+                                                Nov, 2008
+                                            </p>
+                                            <p>
+                                                -
+                                            </p>
+                                            <p>
+                                                Nov, 2012
+                                            </p>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="card card-nested clearfix">
+                                        <div class="content has-sidebar">
+                                            <p><strong>Research Assistant</strong>,&nbsp;<abbr title="Broadband Communications Group">CBA</abbr> - <abbr title="Universitat Politècnica de Catalunya">UPC</abbr></p>
+                                            <p>
+                                                The <a href="http://www.cba.upc.edu/">CBA</a> is a multidisciplinary research group focused on areas related to broadband networks and broadband services
+                                            </p>
+                                            
+                                            <ul>
+                                                <li>Involved in the development
+                                                    of two projects to measure
+                                                    the QoS of any kind of
+                                                    network (<a href="http://www.cba.upc.edu/developed-tools/netmeter">NetMeter</a>
+                                                    and <a href="http://www.cba.upc.edu/developed-tools/oreneta">OreNETa</a>).</li>
+                                                <li>Development of the tools.</li>
+                                                <li>System administration support tasks.</li>
+                                                <li>QoS testing and setting up testbeds.</li>
+                                                <li>Collaboration in the European project <a href="http://www.euqos.eu/">EuQoS</a>.</li>
+                                            </ul>
+
+                                            <p></p>
+                                            <p class="tags">
+                                                <span class="label label-primary">C/C++</span>
+                                                <span class="label label-primary">Qt4</span>
+                                                <span class="label label-primary">XSLT</span>
+                                                <span class="label label-primary">QoS</span>
+                                            </p>
+                                        </div>
+
+                                        <div class="sidebar text-muted text-center">
+                                            <p>
+                                                Jan, 2007
+                                            </p>
+                                            <p>
+                                                -
+                                            </p>
+                                            <p>
+                                                Nov, 2008
+                                            </p>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /Work Experience -->
+
+                        <!-- Skills -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-code"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Skills
+                                </h4>
+
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Programming languages</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">Python</span>
+                                                <span class="label label-primary">PHP</span>
+                                                <span class="label label-primary">C/C++</span>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Databases and NoSQL</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">MySQL</span>
+                                                <span class="label label-primary">Redis</span>
+                                                <span class="label label-primary">Solr</span>
+                                                <span class="label label-primary">Amazon SimpleDB</span>
+                                                <span class="label label-primary">Amazon DynamoDB</span>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Web Development</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">HTML</span>
+                                                <span class="label label-primary">CSS</span>
+                                                <span class="label label-primary">Javascript</span>
+                                                <span class="label label-primary">Websockets</span>
+                                                <span class="label label-primary">XML</span>
+                                                <span class="label label-primary">XPath</span>
+                                                <span class="label label-primary">XSLT</span>
+                                                <span class="label label-primary">Django</span>
+                                                <span class="label label-primary">Zend Framework</span>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Server administration</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">Apache</span>
+                                                <span class="label label-primary">Nginx</span>
+                                                <span class="label label-primary">Nagios</span>
+                                                <span class="label label-primary">Munin</span>
+                                                <span class="label label-primary">Ganglia</span>
+                                                <span class="label label-primary">Graphite</span>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Big Data</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">Hadoop</span>
+                                                <span class="label label-primary">Hive</span>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <strong>Version control</strong>
+
+                                            <div class="space-top">
+                                                <span class="label label-primary">Git</span>
+                                                <span class="label label-primary">Hg</span>
+                                                <span class="label label-primary">SVN</span>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- ENDS Education -->
+                        <!-- /Skills -->
 
-                     <!-- Language -->
-                    <div class="tab-pane" id="language">
-                        <div class="language">
-                            <div class="progress progress-success">
-                                <div class="bar" style="width: 100%" title="Native">Catalan</div>
+                        <!-- Education -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-mortar-board"></i>
                             </div>
-                            <div class="progress progress-success">
-                                <div class="bar" style="width: 100%" title="Native">Spanish</div>
-                            </div>
-                            <div class="progress progress-info">
-                                <div class="bar" style="width: 80%" title="Fluent">English</div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Education
+                                </h4>     
+
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="card card-nested">
+                                            <p>
+                                                <strong>Degree in Informatics Engineering</strong>,&nbsp;
+                                                <a href="http://www.fib.upc.edu/">Facultat d'Informàtica de Barcelona</a>
+                                                <small class="text-muted pull-right">
+                                                    2003 • 2008
+                                                </small>
+                                            </p>
+                                            <p class="clear-margin"><small>Specialized in Telematic networks and operating systems.</small></p>
+                                        </li>
+                                        
+                                        <li class="card card-nested">
+                                            <p>
+                                                <a href="http://www.coursera.org/">Coursera.org</a>
+                                            </p>
+                                            <ul>
+                                                 <li>Software Engineering for SaaS</li>
+                                                 <li>Algorithms I</li>
+                                                 <li>Algorithms II</li>
+                                                 <li>Cryptography I</li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div><!-- ENDS Language -->
+                        <!-- /Education -->
 
+                        <!-- Languages -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-language"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Languages
+                                </h4>
 
-                    <!-- Skills -->
-                    <div class="tab-pane" id="skills">
-                    <h4><i class="icon-chevron-right"></i> Programming languages</h4>
-                    <table class="table table-hover table-skills">
-                        <tbody>
-                            <tr>
-                                <td><strong>objective</strong></td>
-                                <td>advanced knowledge in C/C++</td>
-                            </tr>
-                            <tr>
-                                <td><strong>scripting</strong></td>
-                                <td>proﬁciency in Python, PHP and Shell scripting</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h4><i class="icon-chevron-right"></i> Databases</h4>
-                    <table class="table table-hover table-skills">
-                        <tbody>
-                            <tr>
-                                <td><strong>rdbms</strong></td>
-                                <td>advanced knowledge of MySQL</td>
-                            </tr>
-                            <tr>
-                                <td><strong>other</strong></td>
-                                <td>advanced knowledge of Memcache, Redis, Solr, Amazon SimpleDB &amp; DynamodDB</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h4><i class="icon-chevron-right"></i> Operating Systems</h4>
-                    <table class="table table-hover table-skills">
-                        <tbody>
-                            <tr>
-                                <td><strong>linux</strong></td>
-                                <td>knowledge of Linux programming, strong administration skills</td>
-                            </tr>
-                            <tr>
-                                <td><strong>web servers</strong></td>
-                                <td>Apache, Ngnix</td>
-                            </tr>
-                            <tr>
-                                <td><strong>monitoring</strong></td>
-                                <td>Nagios, Ganglia, Graphite, Munin</td>
-                            </tr>
-                            <tr>
-                                <td><strong>other</strong></td>
-                                <td>working knowledge of Amazon Web Services (AWS)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <h4><i class="icon-chevron-right"></i> Other technologies</h4>
-                    <table class="table table-hover table-skills">
-                        <tbody>
-                            <tr>
-                                <td><strong>web</strong></td>
-                                <td>DNS, HTTP, SMTP, (X)HTML, CSS, Javascript, Websockets, XPath, XSLT</td>
-                            </tr>
-                            <tr>
-                                <td><strong>mapreduce</strong></td>
-                                <td>Hadoop, Hive</td>
-                            </tr>
-                            <tr>
-                                <td><strong>frameworks</strong></td>
-                                <td>working knowledge of Django, Zend Framework and Qt4</td>
-                            </tr>
-                            <tr>
-                                <td><strong>version control</strong></td>
-                                <td>working knowledge of Git, Hg and SVN</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="card card-nested">
+                                            <ul>
+                                                <li>
+                                                    <strong>Catalan</strong>
+                                                </li>
+                                                <li>
+                                                    <strong>Spanish</strong>
+                                                </li>
+                                                <li>
+                                                    <strong>English</strong>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Languages -->
+                                  
+                        <!-- Projects -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-gear"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Projects
+                                </h4>
+
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="card card-nested">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://github.com/robertobarreda/django-experiments">django-experiments</a>:
+                                                    <span>Django AB testing module</span>
+                                                </li>
+                                                <li>
+                                                    <a href="https://github.com/robertobarreda/django-safe-browsing">django-safe-browsing</a>:
+                                                    <span>Django Safe Browsing: lookup phishing/malware URLs in Django</span>
+                                                </li>
+                                                <li>
+                                                    <a href="https://github.com/robertobarreda/netmeter">netmeter</a>:
+                                                    <span>Measurement of QoS parameters over IPv4 and IPv6 networks </span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                        <!-- /Projects -->
+                                         
+
+                        <!-- Interests -->
+                        <div class="detail">
+                            <div class="icon">
+                                <i class="fa fa-lg fa-heart"></i>
+                            </div>
+                            <div class="info">
+                                <h4 class="title text-uppercase">
+                                    Interests
+                                </h4>
+
+                                <div class="content">
+                                    <ul class="list-unstyled">
+                                        
+                                        <li class="card card-nested">
+                                            <p>
+                                                <strong>Computer science</strong>
+                                                <p>High availability, performance optimisation, scalability, scripting, security, rest services,
+                                                    data visualization..</p>
+                                            </p>
+                                            <p>
+                                                <strong>Literature</strong>
+                                                <p>Particularly science ﬁction classics by authors like Orwell and Asimov.</p>
+                                            </p>
+                                            <p>
+                                                <strong>Sports</strong>
+                                                <p>I like many kind of sports but especially I go out running.</p>
+                                            </p>
+                                            <p>
+                                                <strong>Travel</strong>
+                                                <p>Spain, France, UK, Italy, USA and Turkey among others.</p>
+                                            </p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Interests -->
+
                     </div>
-                    <!-- ENDS Skills -->
-
-
-                    <!-- Interests -->
-                    <div class="tab-pane" id="interests">
-                        <dl class="interests-list">
-                            <dt><i class="icon-hdd"></i> <strong>Computer science</strong></dt>
-                            <dd>High availability, performance optimisation, scalability, scripting, security, rest services, data visualization..</dd>
-                            <dt><i class="icon-book"></i> <strong>Literature</strong></dt>
-                            <dd>Particularly science ﬁction classics by authors like Orwell and Asimov.</dd>
-                            <dt><i class="icon-road"></i> <strong>Sports</strong></dt>
-                            <dd>I like many kind of sports but especially I go out running.</dd>
-                            <dt><i class="icon-plane"></i> <strong>Travel</strong></dt>
-                            <dd>Spain, France, UK, Italy and Turkey among others.</dd>
-                        </dl>
-                    </div>
-                    <!-- ENDS Interests -->
-
                 </div>
 
-            </div>
+            </section>
 
-
-            <div class="span3">
-                <h2>Contact</h2>
-                <p><i class="icon-envelope"></i>
-                <script>
-                    document.write("<n uers=\"znvygb:eboregb.oneerqn@tznvy.pbz\">eboregb.oneerqn@tznvy.pbz</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-                </script>
-                <noscript>[Turn on JavaScript to see the email address]</noscript>
-                </p>
-                <a href="http://www.linkedin.com/in/robertobarreda" style="text-decoration:none;" class="vt-p">
-                    <img src="img/glyphicons_377_linked_in.png" widdh="20" height="20" alt="View Roberto Barreda's LinkedIn profile" style="vertical-align:text-top" border="0" />
-                </a>
-                <a href="https://github.com/robertobarreda" style="text-decoration:none;" class="vt-p">
-                    <img src="img/glyphicons_381_github.png" widdh="20" height="20" alt="View Roberto Barreda's GitHub profile" style="vertical-align:text-top" border="0" />
-                </a>
-                <a href="http://stackoverflow.com/users/67463/" style="text-decoration:none;" class="vt-p">
-                    <img src="img/glyphicons_stack_overflow.png" alt="View Roberto Barreda's StackOverflow profile" style="vertical-align:text-top" border="0" />
-                </a>
-                <a href="https://twitter.com/roberto_barreda" style="text-decoration:none;" class="vt-p">
-                    <img src="img/glyphicons_392_twitter.png" alt="View Roberto Barreda's Twitter profile" style="vertical-align:text-top" border="0" />
-                </a>
-
-                <a href="#" class="btn btn-large hidden-print" id="printBtn"><i class="icon-print"></i> Print</a>
-                <a href="https://docs.google.com/file/d/0B1-182jb9HEYcWdidjN2OHBjbWM/preview" class="btn btn-large hidden-print" id="downBtn"><i class="icon-download"></i> Download</a>
-            </div>
         </div>
 
+        <footer>
+            <p class="text-center">
+                Roberto Barreda • <a href="http://robertobarreda.es/">robertobarreda.es</a>
+            </p>
+        </footer>
 
-        <div class="container">
-            <footer>
-                <p>
-                    Roberto Barreda •
-                    <a href="http://robertobarreda.es/">robertobarreda.es</a>
-                </p>
-            </footer>
-        </div>
-        <script type="text/javascript">
-          $(document).ready(function(){
-              $('#printBtn').click(function(){
-                  print();
-              });
-          });
-        </script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script type="text/javascript">
             (function() {
                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
