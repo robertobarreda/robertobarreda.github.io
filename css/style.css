@@ -142,3 +142,7 @@ footer {
     padding: 10px;
     border-left: 1px solid #ccc;
 }
+
+.tags {
+    line-height: 1.7em;
+}
