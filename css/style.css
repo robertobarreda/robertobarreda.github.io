@@ -19,6 +19,15 @@ footer {
     padding-top: 15px;
 }
 
+h3 {
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+address {
+    font-size: 14px;
+}
+
 #contact a {
     color: #333;
     letter-spacing: 1px;
@@ -61,6 +70,10 @@ footer {
 
 .text-bolder {
     font-weight: bold;
+}
+
+#contact {
+    font-size: 20px;
 }
 
 .contact-details .detail {
