@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/robertobarreda
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://robertobarreda.es
+  * I am robertobarreda (https://keybase.io/robertobarreda) on keybase.
+  * I have a public key with fingerprint 97C6 3C78 04DF 5ACC 720F  0D37 07C6 529E E8FA B4D1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.7"
+        },
+        "key": {
+            "fingerprint": "97c63c7804df5acc720f0d3707c6529ee8fab4d1",
+            "host": "keybase.io",
+            "key_id": "07C6529EE8FAB4D1",
+            "uid": "0b5223d9d96872d01a80ec8592e1a819",
+            "username": "robertobarreda"
+        },
+        "merkle_root": {
+            "ctime": 1425820019,
+            "hash": "798c7a5a97dc9be18c483d786654be8fc9ff12ca309c0acc8cb709c5beeb7ae2930c1a4766a54ccc1b46923172ed6d32c23eb2428e88478d5dfd111919492dc9",
+            "seqno": 173810
+        },
+        "service": {
+            "hostname": "robertobarreda.es",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1425820207,
+    "expire_in": 157680000,
+    "prev": "f2aa1b8de722264ce3a97f3f932697b538b3effda8c776ad7cf35d01797b13f4",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+Comment: GPGTools - http://gpgtools.org
+
+owFtkmtoHUUUx2/UpNyIKKU+iGmti0qQ9HZnZndnJn1AbNJIEKo1pNpSrvM4e7P2
+5u51dxu9XFKpHwRtDVWMIKI2NhLUSrFYKwiWiBYagxGftVRBgkpBSEPVL62NMzWi
+BffT2Tm/+Z/zP2f2XXNlrrmhGbbc2C2+nWv49IzM9V3oXV13ZKxrTkfdUeUIKpmN
+KmIQnA5nB9SkSKEQxSsrsYbCw+nKRabdGYIkjeKKodwCLVBnuN3i9nIYVUqQVJPI
+ajmcqoAoylxPh75QimI3dDWhrjn3MQdgoZCeRkZyIE6zy6o6lzSLkbZV6AbLd3ez
+jZ13eV2W3/l3QvoYE801DxjF2kWCuaCYzzGYEHELppAsWkpiCUkWS5EkoIXtehCS
+HWUoJnF8ybrKIgsiD/sMuy7ipi+RDpirlDNFhS841YpLQEx5jGjKgsD3pLGheBgi
+rARxuXKNU6YkNaEvASQVgDlxFRIeDQLhe0opJL2AY4IoBh1oghUmILGHGTDmUaZ9
+HWqEEEfc49iUNEZSeKQSm+YoYcgdtv/JUKTA9m2H978eC5Cam9UkzmIVl016IMuq
+Hdb5+1mtavlHQRYXlYoyqmizv/8uGBn08qlgl7Y78Fg1SqAYWcKnAXPNZ+vAkJEM
+sRBIMg0UYxx4CogZW0hCTnDAqfQJkwTCUAszUhoITVVIfLM7apKIhN6/Xkm7k4mS
+kUyjUkVkOxNwhp9qaL0q19Cca2q8wr7gXHP+un+e9YqDSxY2Xnx1ZOaD5cUv59Lx
+0vzTLbVXju7rezY7f2302f4Xu3adPrz0zFuT46M3uAOlX/buGWNj07cN/jmyddvu
+2++dcJ+4f/KHVSdrcUd+wft6zX2P9/ePrsYHoLXYVP1qfeehm+tb2+5e0Td9YG08
+u6Ft8oG9q/Jv//zgDBo6dXb24sTxRv/J5zbjE/U94UcXjnzx/dKJ3JL6yW03HVn2
+wq/HOu6Y1h/m557/ePa9sXUHTx8r9fO2qez4/jtbPo96i/ONLZ3nt0zdAodm3px7
++eo1z5y4/twnPZ2Ht5M+/eNLa4/273ro3fKtv9WW58d/f2eUbOpZeOP1c109r22/
+Z91P3tlyU+8f60/t/qZ1ZOq7+b8A
+=nqJJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robertobarreda
+
+==================================================================
