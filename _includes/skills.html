@@ -1,0 +1,36 @@
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="resume-section skills-section mb-5">
+    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">{{ site.data.labels.skills | default: "Skills &amp; Tools" }}</h2>
+    <div class="resume-section-content">
+        {% for skill in skills %}
+        {% if skill.category != "others" %}
+        <div class="resume-skill-item">
+            <h4 class="resume-skills-cat font-weight-bold">{{ skill.category }}</h4>
+            <ul class="list-unstyled mb-4">
+                {% for tool in skill.tools %}
+                <li class="list-inline-item"><span class="badge badge-light">{{ tool }}</span></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!--//resume-skill-item-->
+        {% endif %}
+        {% endfor %}
+        {% for skill in skills %}
+        {% if skill.category == "others" %}
+        <div class="resume-skill-item">
+            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+            <ul class="list-inline">
+                {% for tool in skill.tools %}
+                <li class="list-inline-item"><span class="badge badge-light">{{ tool }}</span></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!--//resume-skill-item-->
+        {% endif %}
+        {% endfor %}
+    </div>
+    <!--resume-section-content-->
+</section>
+<!--//skills-section-->
+{% endif %}
