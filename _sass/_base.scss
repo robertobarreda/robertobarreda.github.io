@@ -129,7 +129,7 @@ a.theme-btn-on-bg,
         display: inline-block;
         width: 3px;
         height: 100%;
-        background: lighten($theme-color-primary, 40%);
+        background: rgba($theme-color-primary, 0.2);
         left: 6px;
         top: 4px;
         position: absolute;
