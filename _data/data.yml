@@ -5,8 +5,8 @@
 header:
   title: My Resume
   author: Roberto Barreda
-  tagline: Software Engineer # Short description for jekyll-seo-tag
-  description: Software Engineer | Cloud Development | Problem-Solver | Scalability | Observability | Cybersecurity # Longer description for jekyll-seo-tag
+  tagline: Software Engineer
+  description: Software Engineer | Cloud Development | Problem-Solver | Scalability | Observability | Cybersecurity
   location: Barcelona, Spain
   avatar: profile.jpg
   email: hi@robertobarreda.es
@@ -30,8 +30,10 @@ interests:
 
 summary: |
   Software Engineer with 15+ years of experience in the industry.
-  Proven track record of success in developing and delivering innovative software solutions.
-  Passionate about understanding how my work fits into the overall product strategy.
+  Proven track record of success in developing and delivering innovative
+  software solutions.
+  Passionate about understanding how my work fits into the overall
+  product strategy.
   Strong analytical and problem-solving skills. Fast learner and team player.
 
 education:
@@ -46,15 +48,10 @@ experiences:
     time: Oct 2021 - Present
     company: Netskope
     details: |
-      Netskope's <a href="https://netskope.com/products/remote-browser-isolation">Remote Browser Isolation</a> (RBI)
-      isolates uncategorized and risky websites as an option for Netskope Intelligent Security Service Edge (SSE)
-      and Next Gen Secure Web Gateway (SWG) solutions.
-      - Uses a zero trust approach to web browsing, using physical separation to ensure safe browsing.
-      - Ensures that web server code is executed far from the user’s system, and only a safe pixel rendered
-        interactive image is delivered to the end user’s browser.
-      - Works by executing web server code in cloud based containers, and reproducing the resulting
-        web page as an interactive pixel rendered image.
-      - Ensures no executable code makes it from a web server to an end-user’s system
+      Netskope's <a href="https://netskope.com/products/remote-browser-isolation">
+      Remote Browser Isolation</a> (RBI) isolates uncategorized and risky websites.
+      Uses a zero trust approach to web browsing, using physical separation
+      to ensure safe browsing.
     achievements:
       desc: |
         Working in the Infra team, I played an important role:
@@ -62,7 +59,8 @@ experiences:
         - Designing and developing the orchestration and configuration engine.
         - Improve reliability of critical components, making them highly available.
         - Improve observability and traceability of the overall microservices.
-        - Organize and provider relevant metrics about quality of experience and usability.
+        - Organize and provider relevant metrics about quality of experience
+          and usability.
     technologies:
       - Golang
       - Python
@@ -72,17 +70,21 @@ experiences:
     time: Jan 2021 - Oct 2021
     company: Platform.sh
     details: |
-       <a href="https://platform.sh">Platform.sh</a> is a unified, secure, enterprise-grade platform for building, running and scaling fleets of websites
-       and applications (PaaS) that enables organizations to build, iterate, and responsibly scale their applications
-       with zero time managing infrastructure.
+       <a href="https://platform.sh">Platform.sh</a> is a unified, secure,
+       enterprise-grade platform for building, running and scaling fleets of
+       websites and applications (PaaS) that enables organizations to build,
+       iterate, and responsibly scale their applications with zero time managing
+       infrastructure.
     achievements:
       desc: |
         As part of the Core team, I have work in:
       highlights:
-        - Design and develop of new features regarding observability of the platform.
+        - Design and develop new features regarding observability of the platform.
         - Standardize coding conventions across multiple projects.
-        - Port legacy code and critical internal libraries from python2 to python3.
-        - Tech support meetings with Ops and support to follow-up production issues
+        - Port legacy code and critical internal libraries from
+          python2 to python3.
+        - Coordination with Ops and Customer Support teams to follow-up
+          production issues.
     technologies:
       - Python
       - Golang
@@ -94,13 +96,16 @@ experiences:
     time: 2015 - 2021
     company: Clevernet
     details: |
-      <a href="https://clevernet.io">Clevernet's</a> patented WAN solution uses multiple optimal connections simultaneously to boost WAN performance.
-      Our approach ensures a more effective use of your paid bandwidth and increases the security of your data in motion
+      <a href="https://clevernet.io">Clevernet's</a> patented WAN solution uses
+      multiple optimal connections simultaneously to boost WAN performance.
+      Our approach ensures a more effective use of your paid bandwidth and
+      increases the security of your data in motion
     achievements:
       desc: |
         As the first senior engineer in the company:
       highlights:
-        - I worked defining best practices and procedures to maximize the quality and productivity of the team.
+        - I worked defining best practices and procedures to maximize the
+          quality and productivity of the team.
         - Design, Build, Test, Deploy and Monitor the overall platform.
         - Evaluation of technologies and tools.
         - Communication and mentoring.
@@ -115,7 +120,8 @@ experiences:
     time: Dec 2012 - Jan 2015
     company: Careesma
     details: |
-      <a href="https://careesma.com">Careesma</a> develops and operates job board websites with +6 million of unique visitors and +1 million of emails
+      <a href="https://careesma.com">Careesma</a> develops and operates job
+      board websites with +6 million of unique visitors and +1 million of emails
       sent per month in multiple markets (India, Austria and Poland).
     achievements:
       highlights:
@@ -131,16 +137,19 @@ experiences:
     time: Jan 2011 - Nov 2012
     company: Qustodio
     details: |
-      <a href="https://qustodio.com">Qustodio</a> is the free parental control and internet monitoring software that provides
-      advanced detection and monitoring features.
+      <a href="https://qustodio.com">Qustodio</a> is the free parental control
+      and internet monitoring software that provides advanced detection and
+      monitoring features.
     achievements:
       desc: |
-        As a member of the initial engineering team, I was involved with every aspect of the development,
-        from the technical design of the features to the implementation, promotion to production,
+        As a member of the initial engineering team, I was involved with every
+        aspect of the development, from the technical design of the features to
+        the implementation, promotion to production,
         administration and server monitoring for the following services:
       highlights:
         - Data gathering and processing (ETL).
-        - REST API that provides support for the parents' dashboard and desktop application.
+        - REST API that provides support for the parents' dashboard and desktop
+          application.
         - Alert and notification system.
     technologies:
       - Python
@@ -152,12 +161,16 @@ experiences:
     time: Nov 2008 - Nov 2012
     company: Evolium
     details: |
-      Involved in the design and development of the following projects for a well-known antivirus company.
+      Involved in the design and development of the following projects for a
+      well-known antivirus company.
     achievements:
       highlights:
-        - Client-side library that provides the communication with different cloud protection and security services.
-        - Phishing/Malware protection cloud service for web browsing. Uses heuristics to prevent and detect new and unknown threats.
-        - Web application for remote administration of antivirus installed on the stations of an organization.
+        - Client-side library that provides the communication with different
+          cloud protection and security services.
+        - Phishing/Malware protection cloud service for web browsing.
+          Uses heuristics to prevent and detect new and unknown threats.
+        - Web application for remote administration of antivirus installed on
+          the stations of an organization.
     technologies:
       - C++
       - C#
@@ -168,10 +181,12 @@ experiences:
     company: Universitat Politècnica de Catalunya
     details: |
       As a research assistant in the CBA (Broadband Communications Research Group,
-      a multidisciplinary research group focused on areas related to broadband networks and broadband services)
+      a multidisciplinary research group focused on areas related to broadband
+      networks and broadband services)
     achievements:
       desc: |
-        I was involved in the development of two projects to measure the QoS of any kind of network:
+        I was involved in the development of two projects to measure the QoS of
+        any kind of network:
       highlights:
         - <a href="https://www.cba.upc.edu/developed-tools/netmeter">NetMeter</a>.
         - <a href="http://www.cba.upc.edu/developed-tools/oreneta">OreNETa</a>.
