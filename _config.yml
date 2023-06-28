@@ -3,19 +3,32 @@
 # Site Settings
 
 # SEO plugin
-title: Roberto Barreda | Software Engineer | Cloud Development | Problem-Solver | Scalability | Observability | Cybersecurity
-url: "https://robertobarreda.github.io"
+author: Roberto Barreda
+title: "Roberto Barreda || Software Engineer"
+tagline: "Cloud Development || Problem-Solver || Scalability || Observability || Cybersecurity"
+url: "https://robertobarreda.es"
 
-google_site_verification: # Put your google verification tag here
+twitter:
+  username: roberto_barreda
+  card: summary
 
-theme_skin: gray
+social:
+  name: Roberto Barreda
+  links:
+    - https://twitter.com/roberto_barreda
+    - https://www.linkedin.com/in/robertobarreda
+    - https://github.com/robertobarreda
+
+google_site_verification: google393489e22c3bb5df.html
+
+theme_skin: turquoise
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
 # Tracker
-analytics: UA-6157638-1
+google_analytics: UA-6157638-1
 
 # Sass/SCSS
 sass:
