@@ -200,6 +200,7 @@ skills:
       - Python
   - category: Databases
     tools:
+      - SQL
       - Postgres
       - Mysql
       - Redis
