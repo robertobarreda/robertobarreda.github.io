@@ -28,7 +28,7 @@ plugins:
   - jekyll-seo-tag
 
 # Tracker
-google_analytics: UA-6157638-1
+# google_analytics: UA-6157638-1
 
 # Sass/SCSS
 sass:
