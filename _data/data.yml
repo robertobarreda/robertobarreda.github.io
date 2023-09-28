@@ -50,13 +50,13 @@ experiences:
       to ensure safe browsing.
     achievements:
       desc: |
-        Working in the Infra team, I played an important role:
+        Working in the RBI team, I played an important role:
       highlights:
         - Designing and developing the orchestration and configuration engine.
-        - Improve reliability of critical components, making them highly available.
-        - Improve observability and traceability of the overall microservices.
-        - Organize and provider relevant metrics about quality of experience
-          and usability.
+        - Improving reliability of critical components, making them highly available.
+        - Enhancing the observability and traceability of the overall microservices.
+        - Boosting the documentation and automation of processes by bringing new
+          for a better understanding and communication between stakeholders.
     technologies:
       - Golang
       - Python
