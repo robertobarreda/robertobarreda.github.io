@@ -6,13 +6,13 @@
             <div class="primary-info">
                 <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">{{ header.author }}</h1>
                 <div class="title mb-3">{{ header.tagline }}</div>
-                <ul class="list-unstyled">
-                    <li class="mb-2"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
+                <ul class="contact-info list-unstyled">
+                    <li class="mb-2 email"><a href="mailto:{{ header.email }}"><i class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>{{ header.email }}</a></li>
                     {% if header.phone %}
-                    <li class="mb-2"><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
+                    <li class="mb-2 phone"><a href="tel:{{ header.phone }}"><i class="fas fa-mobile-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.phone }}</a></li>
                     {% endif %}
                     {% if header.location %}
-                    <li class="mb-2"><a href="https://www.google.com/maps/?q={{ header.location }}"><i class="fas fa-map-marker-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.location }}</a></li>
+                    <li class="mb-2 location"><a href="https://www.google.com/maps/?q={{ header.location }}"><i class="fas fa-map-marker-alt fa-fw mr-2" data-fa-transform="grow-6"></i>{{ header.location }}</a></li>
                     {% endif %}
                 </ul>
             </div>

@@ -5,6 +5,7 @@
     }
     body {
        font-size: 12pt;
+       background-color: white;
     }
 
     img.avatar {
@@ -36,4 +37,24 @@
        -webkit-print-color-adjust: exact; 
     }
 
+   .resume-wrapper {
+      padding-top: 0;
+   }
+
+   .resume-header {
+      height: auto;
+   }
+
+   .shadow-lg {
+      box-shadow: none !important;
+   }
+
+   .title,
+   .contact-info .phone,
+   .contact-info .location,
+   .resume-header .picture,
+   .resume-social,
+   .interests-section {
+      display: none;
+   }
 }

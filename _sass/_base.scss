@@ -242,6 +242,7 @@ a.theme-btn-on-bg,
     .resume-header .picture {
         width: 120px;
         @include border-radius(4px);
+        display: none;
     }
 
 
