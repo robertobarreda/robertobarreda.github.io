@@ -108,7 +108,7 @@ experiences:
     technologies:
       - Python
       - Ansible
-      - Mqtt
+      - MQTT
       - IPsec
       - Postgres
 
