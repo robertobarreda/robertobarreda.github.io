@@ -12,17 +12,17 @@ header:
   twitter: "@roberto_barreda"
 
 languages:
-  - idiom: English
+  - idiom: 🇬🇧 English
     level: Professional
-  - idiom: Spanish
+  - idiom: 🇪🇦 Spanish
     level: Native
   - idiom: Catalan
     level: Native
 
 interests:
-  - name: Traveling
-  - name: Running
-  - name: Reading
+  - name: 🗺️ Traveling
+  - name: 🏃‍♂️ Running
+  - name: 📖 Reading
 
 summary: |
   Software Engineer with 15+ years of experience in the industry.
