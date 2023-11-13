@@ -176,17 +176,16 @@ experiences:
     time: Jan 2007 - Nov 2008
     company: Universitat Politècnica de Catalunya
     details: |
-      As a research assistant in the CBA (Broadband Communications Research Group,
-      a multidisciplinary research group focused on areas related to broadband
-      networks and broadband services)
+      As a research assistant in the <a href="https://cba.upc.edu/">CBA</a>
+      (Broadband Communications Research Group, a multidisciplinary research group
+      focused on areas related to broadband networks and broadband services)
     achievements:
       desc: |
-        I was involved in the development of two projects to measure the QoS of
-        any kind of network:
-      highlights:
-        - <a href="https://www.cba.upc.edu/developed-tools/netmeter">NetMeter</a>.
-        - <a href="http://www.cba.upc.edu/developed-tools/oreneta">OreNETa</a>.
-        - European project <a href="https://cordis.europa.eu/project/id/004503">EuQoS</a>.
+        I was involved in the development of several projects to measure the QoS of
+        any network:
+        <a href="https://www.cba.upc.edu/developed-tools/netmeter">NetMeter</a>, 
+        <a href="http://www.cba.upc.edu/developed-tools/oreneta">OreNETa</a> and
+        <a href="https://cordis.europa.eu/project/id/004503">EuQoS</a>.
     technologies:
       - C++
       - Qt
