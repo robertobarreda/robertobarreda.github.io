@@ -207,11 +207,15 @@ skills:
     tools:
       - JavaScript
       - HTML/CSS/SASS
-  - category: others
+  - category: DevOps
     tools:
-      - DevOps
       - AWS / GCS
-      - Kubernetes
+      - Docker / Kubernetes
+      - Linux
       - Observability
+  - category: others
+    tools:      
       - Git
       - Unit Testing
+      - DDD
+      - SOLID
