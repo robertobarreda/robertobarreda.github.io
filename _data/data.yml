@@ -40,8 +40,25 @@ education:
       Grade: Telematic Networks and Operating Systems
 
 experiences:
+  - role: Senior Software Engineer - Technical Lead
+    time: Jan 2024 - Present
+    company: Midokura
+    details: |
+      <a href="https://www.midokura.com/">MIDOKURA</a> is a Sony Group company that delivers 
+      innovative solutions to power the Edge AI revolution in IoT.
+    achievements:
+      desc: |
+        As a member of the AI Integrations team, I have been leading the team that facilitates 
+        the integrations of third-party AI models and WASM applications into the AITRIOS platform
+        and their delivery to edge devices, facilitating adoption of the platform by improving 
+        the overall user experience.
+      highlights: []
+    technologies:
+      - Python
+      - Kubernetes
+
   - role: Staff Software Engineer
-    time: Oct 2021 - Present
+    time: Oct 2021 - Jan 2024
     company: Netskope
     details: |
       Netskope's <a href="https://netskope.com/products/remote-browser-isolation">
