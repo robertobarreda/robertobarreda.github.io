@@ -9,13 +9,13 @@
 */
 
 // Define theme colour scheme
-$theme-color-primary: #3582C4;
-$theme-text-color-primary: #434E5E;
+$theme-color-primary: #4a6d8c;
+$theme-text-color-primary: #1f3e5c;
 $theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-border-color:  lighten($theme-text-color-primary, 10%);
 $theme-divider-color: lighten($theme-text-color-primary, 10%);
-$theme-bg-light: #F7F8FA;
+$theme-bg-light: #d1d5d7;
 $theme-bg-dark: $theme-text-color-primary;
 
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
