@@ -54,7 +54,9 @@ experiences:
         the overall user experience.
       highlights: []
     technologies:
+      - Java
       - Python
+      - SQL
       - Kubernetes
 
   - role: Staff Software Engineer
@@ -223,16 +225,16 @@ skills:
   - category: Frontend
     tools:
       - JavaScript
-      - HTML/CSS/SASS
+      - HTML/CSS
   - category: DevOps
     tools:
-      - AWS / GCS
+      - AWS / GCS / Azure
       - Docker / Kubernetes
       - Linux
-      - Observability
+      - Observability (Grafana / Datadog)
   - category: others
     tools:      
       - Git
-      - Unit Testing
-      - DDD
+      - Test-driven development (TDD)
+      - Domain-driven design (DDD)
       - SOLID
