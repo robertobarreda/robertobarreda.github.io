@@ -3,13 +3,14 @@
 
 /*************************** Pillar Styles ****************************/
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
     font-display: swap;
     background: $theme-bg-light;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $theme-text-color-primary;
-
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .theme-bg-primary {
@@ -46,45 +47,48 @@ a.theme-btn-on-bg,
 }
 
 .resume-wrapper {
-    padding-top: 30px;
-    padding-bottom: 60px;
-
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .resume-wrapper-inner {
     max-width: 1000px;
+    transition: all 0.3s ease;
 }
 
 .resume-header {
-    background: $theme-color-primary;
-    color: rgba(256, 256, 256, 0.9);
+    background: linear-gradient(135deg, $theme-color-primary 0%, lighten($theme-color-primary, 8%) 100%);
+    color: rgba(256, 256, 256, 0.95);
     height: 220px;
+    border-radius: 8px 8px 0 0;
 
     .picture {
         width: 220px;
     }
 
     .name {
-        font-size: 2.25rem;
-        letter-spacing: 0.175rem;
-        font-weight: 900;
+        font-size: 2.5rem;
+        letter-spacing: 0.05rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
     }
 
     .title {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        opacity: 0.95;
     }
 
     span,
     a {
         color: white;
+        transition: all 0.2s ease;
 
         &:hover {
-            color: rgba(256, 256, 256, 0.6);
+            color: rgba(256, 256, 256, 0.8);
+            transform: translateY(-1px);
         }
-
     }
-
-
 }
 
 .resume-social {
@@ -93,28 +97,37 @@ a.theme-btn-on-bg,
     .fa-container {
         font-size: 1rem;
         display: inline-block;
-        width: 24px;
-        height: 24px;
-        @include border-radius(0.125rem);
-        background: white;
+        width: 28px;
+        height: 28px;
+        @include border-radius(6px);
+        background: rgba(255, 255, 255, 0.95);
         color: $theme-color-primary;
+        transition: all 0.2s ease;
     }
 
+    a:hover .fa-container {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
 }
 
 .resume-section-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     position: relative;
     color: $theme-color-primary;
+    font-weight: 700;
+    letter-spacing: -0.02em;
 
     &:after {
         content: "";
         position: absolute;
         left: 0;
         bottom: 0;
-        width: 100%;
-        height: 1.5px;
-        background: lighten($theme-text-color-primary, 30%);
+        width: 60px;
+        height: 3px;
+        background: $theme-color-accent;
+        border-radius: 2px;
     }
 }
 
@@ -145,13 +158,20 @@ a.theme-btn-on-bg,
         position: absolute;
         left: -32px;
         top: 3px;
-        width: 15px;
-        height: 15px;
-        border: 4px solid lighten($theme-color-primary, 10%);
+        width: 12px;
+        height: 12px;
+        border: 3px solid $theme-color-accent;
         background: white;
         @include border-radius(50%);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
     page-break-inside: avoid;
+    margin-bottom: 2rem;
+    transition: all 0.2s ease;
+
+    &:hover {
+        transform: translateX(4px);
+    }
 }
 
 .resume-progress {
@@ -170,8 +190,10 @@ a.theme-btn-on-bg,
 }
 
 .resume-position-title {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: $theme-text-color-primary;
+    font-weight: 600;
+    letter-spacing: -0.01em;
 }
 
 .resume-timeline-item-desc-heading {

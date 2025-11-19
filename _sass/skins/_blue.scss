@@ -8,14 +8,15 @@
  * Website: http://themes.3rdwavemedia.com/
 */
 
-// Define theme colour scheme
-$theme-color-primary: #4a6d8c;
-$theme-text-color-primary: #1f3e5c;
-$theme-text-color-secondary: lighten($theme-text-color-primary, 10%);
-$theme-text-color-light: lighten($theme-text-color-primary, 40%);
-$theme-border-color:  lighten($theme-text-color-primary, 10%);
-$theme-divider-color: lighten($theme-text-color-primary, 10%);
-$theme-bg-light: #d1d5d7;
+// Define modern theme colour scheme
+$theme-color-primary: #2c3e50;
+$theme-color-accent: #3498db;
+$theme-text-color-primary: #2c3e50;
+$theme-text-color-secondary: #5a6c7d;
+$theme-text-color-light: #95a5a6;
+$theme-border-color: #e8ecef;
+$theme-divider-color: #e8ecef;
+$theme-bg-light: #f8f9fa;
 $theme-bg-dark: $theme-text-color-primary;
 
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
