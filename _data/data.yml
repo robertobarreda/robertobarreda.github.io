@@ -26,12 +26,13 @@ interests:
   - name: 📖 Reading
 
 summary: |
-  Software Engineer with 15+ years of experience in the industry.
-  Proven track record of success in developing and delivering innovative
-  software solutions.
-  Passionate about understanding how my work fits into the overall
-  product strategy.
-  Strong analytical and problem-solving skills. Fast learner and team player.
+  Senior Software Engineer with 15+ years building cloud-native distributed systems and leading technical teams.
+  Led teams of 3-8 engineers delivering innovative software solutions serving millions of users with 99.95%+ uptime.
+  Proven expertise in Golang, Python, and Kubernetes orchestration across AWS/GCP/Azure platforms.
+  Specialized in zero-trust security architectures, observability platforms, and edge AI deployment.
+  Passionate about understanding how my work fits into the overall product strategy.
+  Strong analytical and problem-solving skills with a track record in system reliability, performance optimization,
+  and cross-functional collaboration. Fast learner and team player.
 
 education:
   - degree: MSc in Computer Science
