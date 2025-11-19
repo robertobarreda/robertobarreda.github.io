@@ -25,14 +25,22 @@ interests:
   - name: 🏃‍♂️ Running
   - name: 📖 Reading
 
-summary: |
-  Senior Software Engineer with 15+ years building cloud-native distributed systems and leading technical teams.
-  Led teams of 3-8 engineers delivering innovative software solutions serving millions of users with 99.95%+ uptime.
-  Proven expertise in Golang, Python, and Kubernetes orchestration across AWS/GCP/Azure platforms.
-  Specialized in zero-trust security architectures, observability platforms, and edge AI deployment.
-  Passionate about understanding how my work fits into the overall product strategy.
-  Strong analytical and problem-solving skills with a track record in system reliability, performance optimization,
-  and cross-functional collaboration. Fast learner and team player.
+summary:
+  - 15+ years building cloud-native distributed systems and leading technical teams
+  - Led teams of 3-8 engineers delivering innovative solutions for millions of users with 99.95%+ uptime
+  - Proven expertise in Golang, Python, and Kubernetes orchestration across AWS/GCP/Azure platforms
+  - Specialized in zero-trust security architectures, observability platforms, and edge AI deployment
+  - Passionate about understanding how my work fits into the overall product strategy
+  - Strong analytical and problem-solving skills with a track record in system reliability, performance optimization, and cross-functional collaboration
+  - Fast learner and team player
+
+key_strengths:
+  - Technical Leadership
+  - Product Mindset
+  - Cloud Architecture
+  - System Reliability
+  - Cross-functional Collaboration
+  - Team Mentorship
 
 education:
   - degree: MSc in Computer Science
