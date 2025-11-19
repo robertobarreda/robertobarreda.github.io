@@ -9,14 +9,14 @@
 */
 
 // Define modern theme colour scheme
-$theme-color-primary: #2c3e50;
-$theme-color-accent: #3498db;
-$theme-text-color-primary: #2c3e50;
-$theme-text-color-secondary: #5a6c7d;
-$theme-text-color-light: #95a5a6;
-$theme-border-color: #e8ecef;
-$theme-divider-color: #e8ecef;
-$theme-bg-light: #f8f9fa;
+$theme-color-primary: #1c2d4a;
+$theme-color-accent: #0f3ffc;
+$theme-text-color-primary: #1c2d4a;
+$theme-text-color-secondary: #4a5568;
+$theme-text-color-light: #a0aec0;
+$theme-border-color: #e2e8f0;
+$theme-divider-color: #e2e8f0;
+$theme-bg-light: #f7fafc;
 $theme-bg-dark: $theme-text-color-primary;
 
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
