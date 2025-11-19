@@ -58,8 +58,13 @@ experiences:
     technologies:
       - Java
       - Python
-      - SQL
       - Kubernetes
+      - Azure
+      - Terraform
+      - SQL
+      - Prometheus
+      - GitOps
+      - Edge AI
 
   - role: Staff Software Engineer
     time: Oct 2021 - Jan 2024
@@ -82,6 +87,8 @@ experiences:
       - Golang
       - Python
       - Kubernetes
+      - Google Cloud (GCS)
+      - Prometheus
 
   - role: Cloud Engineer
     time: Jan 2021 - Oct 2021
@@ -107,7 +114,6 @@ experiences:
       - Golang
       - SQL
       - LXC
-      - Git
 
   - role: Lead Software Engineer
     time: 2015 - 2021
@@ -131,7 +137,10 @@ experiences:
       - Ansible
       - MQTT
       - IPsec
-      - Postgres
+      - PostgreSQL
+      - Linux networking
+      - SD-WAN
+      - AWS
 
   - role: Software Engineer
     time: Dec 2012 - Jan 2015
@@ -173,6 +182,7 @@ experiences:
       - PHP
       - Hadoop
       - Mysql
+      - AWS
 
   - role: Software Engineer
     time: Nov 2008 - Nov 2012
@@ -214,29 +224,51 @@ experiences:
       - QoS
 
 skills:
-  - category: Backend
+  - category: Programming Languages
     tools:
       - Golang
       - Python
-  - category: Databases
+      - Java
+  - category: Cloud & Infrastructure
     tools:
-      - SQL
-      - Postgres
-      - Mysql
-      - Redis
-  - category: Frontend
-    tools:
-      - JavaScript
-      - HTML/CSS
-  - category: DevOps
-    tools:
-      - AWS / GCS / Azure
-      - Docker / Kubernetes
+      - AWS
+      - GCP
+      - Azure
+      - Terraform
+      - Ansible
+      - Kubernetes
+      - Docker
       - Linux
-      - Observability (Grafana / Datadog)
-  - category: others
-    tools:      
-      - Git
-      - Test-driven development (TDD)
-      - Domain-driven design (DDD)
-      - SOLID
+  - category: Databases & Storage
+    tools:
+      - PostgreSQL
+      - MySQL
+      - Redis
+      - SQL
+  - category: Observability & Monitoring
+    tools:
+      - Prometheus
+      - Loki
+      - Grafana
+      - Datadog
+      - Sumo Logic
+  - category: Security & Networking
+    tools:
+      - Zero Trust Architecture
+      - IPsec
+      - mTLS
+      - OAuth2/OIDC
+      - VPN
+      - MQTT
+  - category: DevOps & CI/CD
+    tools:
+      - GitOps
+      - GitHub Actions
+      - GitLab CI
+  - category: Architecture & Design
+    tools:
+      - Microservices
+      - Event-driven systems
+      - DDD
+      - REST
+      - gRPC
