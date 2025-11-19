@@ -167,11 +167,6 @@ a.theme-btn-on-bg,
     }
     page-break-inside: avoid;
     margin-bottom: 2rem;
-    transition: all 0.2s ease;
-
-    &:hover {
-        transform: translateX(4px);
-    }
 }
 
 .resume-progress {
