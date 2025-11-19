@@ -1,34 +1,13 @@
 # Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-
-# SEO plugin
-author: Roberto Barreda
 title: "Roberto Barreda | Homepage & CV"
-tagline: "Software Engineer | Cloud Development | Problem-Solver | Scalability | Observability | Cybersecurity"
 url: "https://robertobarreda.es"
-
-twitter:
-  username: roberto_barreda
-  card: summary
-
-social:
-  name: Roberto Barreda
-  links:
-    - https://twitter.com/roberto_barreda
-    - https://www.linkedin.com/in/robertobarreda
-    - https://github.com/robertobarreda
-
-google_site_verification: google393489e22c3bb5df.html
 
 theme_skin: blue
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
-
-# Tracker
-# google_analytics: UA-6157638-1
 
 # Sass/SCSS
 sass:
