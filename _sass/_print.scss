@@ -53,8 +53,18 @@
    .contact-info .phone,
    .contact-info .location,
    .resume-header .picture,
-   .resume-social,
    .interests-section {
       display: none;
+   }
+
+   .resume-social {
+      display: flex !important;
+      flex-wrap: wrap;
+      gap: 1rem;
+   }
+
+   .resume-social li {
+      margin-bottom: 0 !important;
+      display: inline-block;
    }
 }
