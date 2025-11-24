@@ -43,6 +43,18 @@
 
    .resume-header {
       height: auto;
+      background: #e8e8e8 !important;
+      color: black !important;
+      -webkit-print-color-adjust: exact;
+      border: 2px solid #333 !important;
+      padding: 1rem !important;
+   }
+
+   .resume-header .name,
+   .resume-header .text-white,
+   .resume-header span,
+   .resume-header a {
+      color: black !important;
    }
 
    .shadow-lg {
@@ -66,5 +78,37 @@
    .resume-social li {
       margin-bottom: 0 !important;
       display: inline-block;
+   }
+
+   .badge,
+   .badge-light,
+   .badge-primary {
+      color: black !important;
+      background-color: white !important;
+      border: 1px solid black !important;
+      -webkit-print-color-adjust: exact;
+   }
+
+   .resume-timeline::before,
+   .resume-timeline-item::before {
+      display: none !important;
+   }
+
+   .resume-timeline {
+      padding-left: 0 !important;
+   }
+
+   .resume-company-name {
+      display: inline !important;
+      font-weight: 600;
+   }
+
+   .resume-company-name::after {
+      content: " | ";
+      margin: 0 0.3rem;
+   }
+
+   .resume-position-time {
+      display: inline !important;
    }
 }

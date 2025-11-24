@@ -14,10 +14,12 @@
                             <small class="text-muted">({{ experience.subrole }})</small>
                             {% endif %}
                         </h3>
-                        <div class="resume-company-name ml-auto">{{ experience.company }}</div>
                     </div>
                     <!--//row-->
-                    <div class="resume-position-time">{{ experience.time }}</div>
+                    <div>
+                        <span class="resume-company-name">{{ experience.company }}</span>
+                        <span class="resume-position-time">{{ experience.time }}</span>
+                    </div>
                 </div>
                 <!--//resume-timeline-item-header-->
                 <div class="resume-timeline-item-desc">
