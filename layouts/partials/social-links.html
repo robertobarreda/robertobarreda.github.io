@@ -1,0 +1,13 @@
+{{ with .Site.Params.social }}
+<div class="social-links">
+    <div class="social-grid">
+        {{ range . }}
+        {{ $cleanUrl := .url | replaceRE "^https?://" "" | replaceRE "^mailto:" "" }}
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .label }}" data-print-url="{{ $cleanUrl }}">
+            <i class="{{ .icon }}"></i>
+            <span>{{ .label }}</span>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,32 @@
+baseURL = 'https://robertobarreda.es'
+languageCode = 'en-us'
+title = 'Roberto Barreda - Senior Software Engineer'
+
+[params]
+  brand = "Roberto Barreda"
+  description = "Senior Software Engineer | Cloud Development | Problem-Solver"
+
+  # Social Links
+  [[params.social]]
+    label = "Email"
+    url = "mailto:hi@robertobarreda.es"
+    icon = "fa-regular fa-envelope"
+
+  [[params.social]]
+    label = "Website"
+    url = "https://robertobarreda.es"
+    icon = "fa-solid fa-globe"
+
+  [[params.social]]
+    label = "LinkedIn"
+    url = "https://linkedin.com/in/robertobarreda"
+    icon = "fa-brands fa-linkedin-in"
+
+  [[params.social]]
+    label = "GitHub"
+    url = "https://github.com/robertobarreda"
+    icon = "fa-brands fa-github"
+
+# Markup - Allow HTML in markdown
+[markup.goldmark.renderer]
+  unsafe = true

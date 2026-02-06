@@ -1,0 +1,90 @@
+<div class="about-content">
+    <div class="intro-section">
+        <!-- Summary -->
+        <h2>Summary</h2>
+        <p>{{ .Site.Data.resume.summary }}</p>
+
+        <!-- Core Competencies -->
+        <h3>Core Competencies</h3>
+        <ul>
+            {{ range .Site.Data.resume.competencies }}
+            <li><strong>{{ .name }}</strong> — {{ .description }}</li>
+            {{ end }}
+        </ul>
+
+        <!-- Education -->
+        <h2>Education</h2>
+        {{ with .Site.Data.resume.education }}
+        <p>
+            <strong>{{ .degree }}</strong><br>
+            {{ .institution }} • {{ .years }}<br>
+            <em>{{ .grade }}</em>
+        </p>
+        {{ end }}
+
+        <!-- Languages -->
+        <h3>Languages</h3>
+        <ul>
+            {{ range .Site.Data.resume.languages }}
+            <li><span class="flag">{{ .flag }}</span> <strong>{{ .name }}</strong> — {{ .level }}</li>
+            {{ end }}
+        </ul>
+
+        <!-- Work Experience -->
+        <h2>Work Experience</h2>
+
+        <!-- Timeline -->
+        <div class="timeline">
+            {{ range .Site.Data.resume.experience }}
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <p>
+                        <strong>{{ .title }}</strong> —
+                        {{ if .companyUrl }}
+                            <a href="{{ .companyUrl }}" target="_blank">{{ .company }}</a>
+                        {{ else }}
+                            {{ .company }}
+                        {{ end }}
+                        {{ with .companyNote }} {{ . }}{{ end }}
+                    </p>
+                    <p><em>{{ .period }} • {{ .location }}</em></p>
+
+                    <p>{{ .description }}</p>
+
+                    {{ with .achievements }}
+                    <p><strong>Key Achievements:</strong></p>
+                    <ul>
+                        {{ range . }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+
+                    {{ with .responsibilities }}
+                    <p><strong>Key Responsibilities:</strong></p>
+                    <ul>
+                        {{ range . }}
+                        <li>{{ . }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+
+                    {{ with .projects }}
+                    <p><strong>Key Projects:</strong></p>
+                    <ul>
+                        {{ range . }}
+                        <li>{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+
+                    {{ with .technologies }}
+                    <p><strong>Technologies:</strong> {{ delimit . ", " }}</p>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

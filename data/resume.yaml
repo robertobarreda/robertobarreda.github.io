@@ -1,0 +1,195 @@
+personal:
+  name: "Roberto Barreda"
+  title: "Senior Software Engineer | Cloud Development | Problem-Solver"
+  location: "Barcelona, Spain"
+
+summary: |
+  15+ years building cloud-native distributed systems and leading technical teams.
+  Led teams of 3-8 engineers delivering innovative solutions for millions of users with 99.95%+ uptime.
+  Specialized in zero-trust security architectures, observability platforms, and edge AI deployment.
+
+competencies:
+  - name: "Technical Leadership"
+    description: "Leading engineering teams and driving technical excellence"
+  - name: "Product Mindset"
+    description: "Understanding how work fits into overall product strategy"
+  - name: "Cloud Architecture"
+    description: "AWS, GCP, Azure with Kubernetes orchestration"
+  - name: "System Reliability"
+    description: "Building highly available systems with comprehensive observability"
+  - name: "Cross-functional Collaboration"
+    description: "Working effectively across teams and disciplines"
+  - name: "Team Mentorship"
+    description: "Growing and developing engineering talent"
+
+education:
+  degree: "MSc in Computer Science"
+  institution: "Universitat Politècnica de Catalunya"
+  years: "2003 – 2008"
+  grade: "Telematic Networks and Operating Systems"
+
+languages:
+  - name: "English"
+    level: "Professional"
+    flag: "🇬🇧"
+  - name: "Spanish"
+    level: "Native"
+    flag: "🇪🇦"
+  - name: "Catalan"
+    level: "Native"
+    flag: "🏴󠁥󠁳󠁣󠁴󠁿"
+  - name: "Italian"
+    level: "Basic"
+    flag: "🇮🇹"
+
+interests:
+  - icon: "🗺️"
+    name: "Traveling"
+  - icon: "🏃‍♂️"
+    name: "Running"
+  - icon: "📖"
+    name: "Reading"
+
+experience:
+  - company: "Midokura"
+    companyUrl: "https://www.midokura.com/"
+    companyNote: "(Sony Group)"
+    title: "Senior Software Engineer - Technical Lead"
+    period: "January 2024 – Present"
+    location: "Remote"
+    current: true
+    description: "Leading a team of 6 engineers building services for the AITRIOS platform, enabling seamless deployment of third-party AI models and WASM applications to edge devices at scale."
+    achievements:
+      - "Architected integration pipeline handling 50+ AI model deployments, reducing onboarding time from weeks to days and increasing platform adoption by 40%"
+      - "Designed and implemented WASM runtime orchestration on Kubernetes, supporting 10K+ edge devices with 99.9% deployment success rate"
+      - "Established CI/CD pipelines with automated testing, improving deployment frequency by 3x while reducing production incidents by 60%"
+      - "Led technical design reviews and mentored 4 junior engineers on cloud-native architecture patterns and edge computing best practices"
+    technologies:
+      - "Java"
+      - "Python"
+      - "Kubernetes"
+      - "Azure"
+      - "Terraform"
+      - "SQL"
+      - "Prometheus"
+      - "GitOps"
+      - "Edge AI"
+
+  - company: "Netskope"
+    companyUrl: "https://netskope.com/products/remote-browser-isolation"
+    title: "Staff Software Engineer"
+    period: "October 2021 – January 2024"
+    location: "Remote"
+    description: "Core contributor to Remote Browser Isolation (RBI) platform serving 5M+ users, delivering zero-trust security architecture and high-availability microservices infrastructure."
+    achievements:
+      - "Architected orchestration and configuration engine managing 1000+ browser instances, processing 50K+ requests/hour with sub-100ms latency"
+      - "Improved system reliability from 99.5% to 99.95% uptime by implementing circuit breakers, automated failover, and chaos engineering practices"
+      - "Built comprehensive observability platform using Prometheus, Grafana, and distributed tracing, reducing MTTR by 70% and enabling proactive incident prevention"
+      - "Established GitOps workflows and IaC with Terraform/Helm, achieving 50+ deployments/week with zero-downtime releases"
+      - "Mentored 5 engineers on microservices patterns, Kubernetes best practices, and security-first design principles"
+    technologies:
+      - "Golang"
+      - "Python"
+      - "Kubernetes"
+      - "Google Cloud (GCS)"
+      - "Prometheus"
+
+  - company: "Platform.sh"
+    companyUrl: "https://platform.sh"
+    title: "Cloud Engineer"
+    period: "January 2021 – October 2021"
+    location: "Remote"
+    description: "Contributed to core platform infrastructure supporting 10K+ applications, focusing on observability, performance optimization, and Python3 migration."
+    achievements:
+      - "Designed and implemented observability features using Prometheus and custom metrics exporters, improving platform visibility and reducing debug time by 50%"
+      - "Led Python2 to Python3 migration for 15+ critical services and libraries, ensuring compatibility while improving performance by 25%"
+      - "Standardized coding conventions and established linting/testing frameworks across 20+ repositories, reducing code review time by 40%"
+      - "Collaborated with Ops and Support teams to reduce P1 incident resolution time by 35% through improved monitoring and runbooks"
+    technologies:
+      - "Python"
+      - "Golang"
+      - "SQL"
+      - "LXC"
+
+  - company: "Clevernet"
+    companyUrl: "https://clevernet.io"
+    title: "Lead Software Engineer"
+    period: "2015 – 2021"
+    location: "Barcelona, Spain"
+    description: "First senior engineer hire, responsible for establishing engineering practices, platform architecture, and technical leadership for early-stage networking startup."
+    achievements:
+      - "Architected and built complete SD-WAN platform from ground up, supporting 500+ enterprise deployments across 20+ countries"
+      - "Designed and implemented IPsec/MQTT-based distributed control plane, achieving 99.9% uptime and sub-50ms failover between WAN connections"
+      - "Established DevOps practices including CI/CD pipelines, IaC with Ansible, and monitoring systems, reducing deployment time from days to hours"
+      - "Grew and mentored engineering team from 2 to 8 engineers, establishing code review processes, testing standards, and architecture documentation"
+      - "Led technology evaluation and selection for core platform components, optimizing for scalability, security, and operational efficiency"
+    technologies:
+      - "Python"
+      - "Ansible"
+      - "MQTT"
+      - "IPsec"
+      - "PostgreSQL"
+      - "Linux networking"
+      - "SD-WAN"
+      - "AWS"
+
+  - company: "Careesma"
+    companyUrl: "https://careesma.com"
+    title: "Software Engineer"
+    period: "December 2012 – January 2015"
+    location: "Barcelona, Spain"
+    description: "Contributed to job board platform with 6+ million unique visitors and 1+ million emails sent per month across multiple markets (India, Austria, Poland)."
+    achievements:
+      - "Ported legacy PHP/C++ application to modern Python architecture"
+      - "Simplified onboarding process for new jobseekers"
+      - "Improved application performance and reliability"
+    technologies:
+      - "Python"
+      - "Solr"
+      - "MySQL"
+
+  - company: "Qustodio"
+    companyUrl: "https://qustodio.com"
+    title: "Software Engineer"
+    period: "January 2011 – November 2012"
+    location: "Barcelona, Spain"
+    description: "Member of the initial engineering team, involved in every aspect of development for parental control and internet monitoring software."
+    responsibilities:
+      - "Data gathering and processing (ETL) systems"
+      - "REST API supporting parents' dashboard and desktop application"
+      - "Alert and notification system implementation"
+    technologies:
+      - "Python"
+      - "PHP"
+      - "Hadoop"
+      - "MySQL"
+      - "AWS"
+
+  - company: "Evolium"
+    title: "Software Engineer"
+    period: "November 2008 – November 2012"
+    location: "Barcelona, Spain"
+    description: "Designed and developed security solutions for a well-known antivirus company."
+    projects:
+      - "Client-side library for communication with cloud protection and security services"
+      - "Phishing/Malware protection cloud service using heuristics for threat detection"
+      - "Web application for remote administration of antivirus installations"
+    technologies:
+      - "C++"
+      - "C#"
+      - "MySQL"
+
+  - company: "Universitat Politècnica de Catalunya"
+    companyUrl: "https://historic.cba.upc.edu/"
+    title: "Research Assistant"
+    period: "January 2007 – November 2008"
+    location: "Barcelona, Spain"
+    description: "Research in Broadband Communications Research Group (CBA), focusing on broadband networks and services."
+    projects:
+      - "Developed tools to measure network QoS: [NetMeter](https://historic.cba.upc.edu/developed-tools/netmeter.html), [OreNETa](http://historic.cba.upc.edu/developed-tools/oreneta.html)"
+      - "Contributed to EU project [EuQoS](https://cordis.europa.eu/project/id/004503)"
+    technologies:
+      - "C++"
+      - "Qt"
+      - "XML/XSLT"
+      - "QoS"
