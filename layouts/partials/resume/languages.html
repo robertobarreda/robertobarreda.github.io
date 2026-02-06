@@ -1,0 +1,7 @@
+<!-- Languages -->
+<h3>Languages</h3>
+<ul>
+    {{ range .Site.Data.resume.languages }}
+    <li><span class="flag">{{ .flag }}</span> <strong>{{ .name }}</strong> — {{ .level }}</li>
+    {{ end }}
+</ul>

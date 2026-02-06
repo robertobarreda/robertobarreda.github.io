@@ -1,0 +1,7 @@
+<!-- Core Competencies -->
+<h3>Core Competencies</h3>
+<ul>
+    {{ range .Site.Data.resume.competencies }}
+    <li><strong>{{ .name }}</strong> — {{ .description }}</li>
+    {{ end }}
+</ul>

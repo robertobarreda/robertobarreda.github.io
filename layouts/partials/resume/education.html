@@ -1,0 +1,9 @@
+<!-- Education -->
+<h2>Education</h2>
+{{ with .Site.Data.resume.education }}
+<p>
+    <strong>{{ .degree }}</strong><br>
+    {{ .institution }} • {{ .years }}<br>
+    <em>{{ .grade }}</em>
+</p>
+{{ end }}
