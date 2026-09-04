@@ -5,22 +5,22 @@ personal:
 
 summary: |
   15+ years building cloud-native distributed systems and leading technical teams.
-  Led teams of 3-8 engineers delivering innovative solutions for millions of users with 99.95%+ uptime.
-  Specialized in zero-trust security architectures, observability platforms, and edge AI deployment.
+  Led teams of 3-8 engineers on products used by millions, with 99.95%+ uptime.
+  Focus on zero-trust security, observability, and edge AI deployment.
 
 competencies:
   - name: "Technical Leadership"
-    description: "Leading engineering teams and driving technical excellence"
+    description: "Lead engineering teams and make architecture decisions"
   - name: "Product Mindset"
-    description: "Understanding how work fits into overall product strategy"
+    description: "Connect engineering work to product goals"
   - name: "Cloud Architecture"
-    description: "AWS, GCP, Azure with Kubernetes orchestration"
+    description: "Design AWS, GCP, and Azure systems with Kubernetes"
   - name: "System Reliability"
-    description: "Building highly available systems with comprehensive observability"
+    description: "Use metrics and tracing to keep systems available"
   - name: "Cross-functional Collaboration"
-    description: "Working effectively across teams and disciplines"
+    description: "Work with product, operations, and support teams"
   - name: "Team Mentorship"
-    description: "Growing and developing engineering talent"
+    description: "Coach engineers and help them grow"
 
 education:
   degree: "MSc in Computer Science"
@@ -59,19 +59,19 @@ experience:
     location: "Remote"
     current: true
     description: >
-      Leading a team building inference infrastructure for AI workloads in private datacenters.
-      Previously led services for Sony's AITRIOS platform, managing smart edge devices
-      and deploying third-party AI models and WASM applications at scale.
+      Lead a team responsible for inference infrastructure for AI workloads in private data centers.
+      Previously led services for Sony's AITRIOS platform. Managed smart edge devices
+      and deployed third-party AI models and WASM applications at scale.
     achievements:
-      - "Built Go services and Kubernetes orchestration to provision GPU hardware and run inference workloads"
-      - "Built inference services with vLLM, including model selection and tuning, semantic routing, packaging, deployment, and observability"
-      - "Integrated 50+ AI models and deployed WASM runtimes on Kubernetes across 10K+ edge devices. Cut model onboarding from weeks to days, increased adoption by 40%, and achieved a 99.9% deployment success rate"
-      - "Established CI/CD and automated testing, 3x deployment frequency and reducing production incidents by 60%"
-      - "Led design reviews and mentored 4 engineers on cloud-native architecture and edge computing"
+      - "Built Go services and Kubernetes orchestration that provision GPU hardware and run inference workloads"
+      - "Built vLLM inference services with model selection, tuning, semantic routing, packaging, deployment, and observability"
+      - "Integrated 50+ AI models and deployed WASM runtimes on Kubernetes across 10K+ edge devices. Cut model onboarding from weeks to days, increased adoption by 40%, and reached 99.9% deployment success"
+      - "Established CI/CD and automated testing, 3x deployment frequency and cutting production incidents by 60%"
+      - "Led design reviews and mentored 4 engineers in cloud-native architecture and edge computing"
     technologies:
       - "Java"
       - "Python"
-      - "Golang"
+      - "Go"
       - "vLLM"
       - "GPU infrastructure"
       - "Kubernetes"
@@ -87,15 +87,15 @@ experience:
     title: "Staff Software Engineer"
     period: "October 2021 – January 2024"
     location: "Remote"
-    description: "Core contributor to Remote Browser Isolation (RBI) platform serving 5M+ users, delivering zero-trust security architecture and high-availability microservices infrastructure."
+    description: "Built zero-trust security features and highly available microservices for the Remote Browser Isolation (RBI) platform serving 5M+ users."
     achievements:
-      - "Architected orchestration and configuration engine managing 1000+ browser instances, processing 50K+ requests/hour with sub-100ms latency"
-      - "Improved system reliability from 99.5% to 99.95% uptime by implementing circuit breakers, automated failover, and chaos engineering practices"
-      - "Built comprehensive observability platform using Prometheus, Grafana, and distributed tracing, reducing MTTR by 70% and enabling proactive incident prevention"
-      - "Established GitOps workflows and IaC with Terraform/Helm, achieving 50+ deployments/week with zero-downtime releases"
-      - "Mentored 5 engineers on microservices patterns, Kubernetes best practices, and security-first design principles"
+      - "Architected an orchestration and configuration engine that managed 1K+ browser instances and processed 50K+ requests/hour with sub-100ms latency"
+      - "Raised uptime from 99.5% to 99.95% through circuit breakers, automated failover, and chaos engineering"
+      - "Built an observability platform with Prometheus, Grafana, and distributed tracing. Cut MTTR by 70% and enabled proactive incident response"
+      - "Established GitOps workflows and Terraform/Helm IaC, enabling 50+ deployments per week with zero-downtime releases"
+      - "Mentored 5 engineers in microservices, Kubernetes, and security-first design"
     technologies:
-      - "Golang"
+      - "Go"
       - "Python"
       - "Kubernetes"
       - "Google Cloud (GCS)"
@@ -106,30 +106,30 @@ experience:
     title: "Cloud Engineer"
     period: "January 2021 – October 2021"
     location: "Remote"
-    description: "Contributed to core platform infrastructure supporting 10K+ applications, focusing on observability, performance optimization, and Python3 migration."
+    description: "Contributed to core platform infrastructure for 10K+ applications. Improved observability and performance. Led the Python 3 core components migration."
     achievements:
-      - "Designed and implemented observability features using Prometheus and custom metrics exporters, improving platform visibility and reducing debug time by 50%"
-      - "Led Python2 to Python3 migration for 15+ critical services and libraries, ensuring compatibility while improving performance by 25%"
-      - "Standardized coding conventions and established linting/testing frameworks across 20+ repositories, reducing code review time by 40%"
-      - "Collaborated with Ops and Support teams to reduce P1 incident resolution time by 35% through improved monitoring and runbooks"
+      - "Designed observability features with Prometheus and custom metrics exporters, improving platform visibility and cutting debug time by 50%"
+      - "Led the Python 2 to Python 3 migration for 15+ critical services and libraries, preserving compatibility and improving performance by 25%"
+      - "Standardized coding conventions and established linting and testing frameworks across 20+ repositories, cutting code review time by 40%"
+      - "Partnered with Operations and Support to cut P1 incident resolution time by 35% through better monitoring and runbooks"
     technologies:
       - "Python"
-      - "Golang"
+      - "Go"
       - "SQL"
       - "LXC"
 
   - company: "Clevernet"
     companyUrl: "https://clevernet.io"
     title: "Lead Software Engineer"
-    period: "2015 – 2021"
+    period: "January 2015 – January 2021"
     location: "Barcelona, Spain"
-    description: "First senior engineer hire, responsible for establishing engineering practices, platform architecture, and technical leadership for early-stage networking startup."
+    description: "First senior engineering hire. Established engineering practices and platform architecture for an early-stage networking startup."
     achievements:
-      - "Architected and built complete SD-WAN platform from ground up, supporting 500+ enterprise deployments across 20+ countries"
-      - "Designed and implemented IPsec/MQTT-based distributed control plane, achieving 99.9% uptime and sub-50ms failover between WAN connections"
-      - "Established DevOps practices including CI/CD pipelines, IaC with Ansible, and monitoring systems, reducing deployment time from days to hours"
-      - "Grew and mentored engineering team from 2 to 8 engineers, establishing code review processes, testing standards, and architecture documentation"
-      - "Led technology evaluation and selection for core platform components, optimizing for scalability, security, and operational efficiency"
+      - "Built an SD-WAN platform from scratch that supported 500+ enterprise deployments across 20+ countries"
+      - "Designed and implemented an IPsec/MQTT distributed control plane. Reached 99.9% uptime and sub-50ms failover between WAN connections"
+      - "Set up DevOps practices with CI/CD, Ansible IaC, and monitoring, cutting deployment time from days to hours"
+      - "Grew and mentored the engineering team from 2 to 8 engineers. Set code review processes, testing standards, and architecture documentation"
+      - "Evaluated and chose core platform technologies for scale, security, and operations"
     technologies:
       - "Python"
       - "Ansible"
@@ -145,11 +145,9 @@ experience:
     title: "Software Engineer"
     period: "December 2012 – January 2015"
     location: "Barcelona, Spain"
-    description: "Contributed to job board platform with 6+ million unique visitors and 1+ million emails sent per month across multiple markets (India, Austria, Poland)."
+    description: "Contributed to a job board platform with 6+ million unique visitors and 1+ million emails sent per month across India, Austria, and Poland."
     achievements:
-      - "Ported legacy PHP/C++ application to modern Python architecture"
-      - "Simplified onboarding process for new jobseekers"
-      - "Improved application performance and reliability"
+      - "Ported a legacy PHP/C++ application to Python and simplified jobseeker onboarding"
     technologies:
       - "Python"
       - "Solr"
@@ -157,14 +155,15 @@ experience:
 
   - company: "Qustodio"
     companyUrl: "https://qustodio.com"
+    companyNote: "(Evolium spin-off)"
     title: "Software Engineer"
     period: "January 2011 – November 2012"
     location: "Barcelona, Spain"
-    description: "Member of the initial engineering team, involved in every aspect of development for parental control and internet monitoring software."
+    description: "Joined the initial engineering team for parental control and internet monitoring software."
     responsibilities:
-      - "Data gathering and processing (ETL) systems"
-      - "REST API supporting parents' dashboard and desktop application"
-      - "Alert and notification system implementation"
+      - "Built data gathering and processing (ETL) systems"
+      - "Built a REST API for the parent dashboard and desktop application"
+      - "Implemented alerts and notifications service"
     technologies:
       - "Python"
       - "PHP"
@@ -176,11 +175,11 @@ experience:
     title: "Software Engineer"
     period: "November 2008 – November 2012"
     location: "Barcelona, Spain"
-    description: "Designed and developed security solutions for a well-known antivirus company."
+    description: "Built security solutions for a well-known antivirus software company."
     projects:
-      - "Client-side library for communication with cloud protection and security services"
-      - "Phishing/Malware protection cloud service using heuristics for threat detection"
-      - "Web application for remote administration of antivirus installations"
+      - "Built a client library that communicated with cloud protection and security services"
+      - "Built a phishing and malware protection cloud service with heuristic threat detection"
+      - "Built a web app to administer antivirus installations remotely"
     technologies:
       - "C++"
       - "C#"
@@ -191,10 +190,10 @@ experience:
     title: "Research Assistant"
     period: "January 2007 – November 2008"
     location: "Barcelona, Spain"
-    description: "Research in Broadband Communications Research Group (CBA), focusing on broadband networks and services."
+    description: "Conducted research in the Broadband Communications Research Group (CBA) on broadband networks and services."
     projects:
-      - "Developed tools to measure network QoS: [NetMeter](https://historic.cba.upc.edu/developed-tools/netmeter.html), [OreNETa](http://historic.cba.upc.edu/developed-tools/oreneta.html)"
-      - "Contributed to EU project [EuQoS](https://cordis.europa.eu/project/id/004503)"
+      - "Built network QoS measurement tools: [NetMeter](https://historic.cba.upc.edu/developed-tools/netmeter.html) and [OreNETa](http://historic.cba.upc.edu/developed-tools/oreneta.html)"
+      - "Contributed to the EU [EuQoS](https://cordis.europa.eu/project/id/004503) project"
     technologies:
       - "C++"
       - "Qt"
