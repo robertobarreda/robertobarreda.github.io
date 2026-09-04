@@ -1,6 +1,6 @@
 /* ==========================================================================
    MINIMAL CV THEME
-   Accent Color: #34d399 (Emerald Green)
+   Accent Colors: #4338ca (Light) and #34d399 (Dark)
    ========================================================================== */
 
 /* CSS Variables */
@@ -10,7 +10,9 @@
   --color-text: #111827;
   --color-text-muted: #6b7280;
   --color-border: #e5e7eb;
-  --color-accent: #0891b2;
+  --color-accent: #4338ca;
+  --color-accent-contrast: #ffffff;
+  --color-accent-shadow: rgba(67, 56, 202, 0.25);
   --max-width: 1200px;
 }
 
@@ -21,6 +23,8 @@ html[data-theme="dark"] {
   --color-text-muted: #9ca3af;
   --color-border: #27272a;
   --color-accent: #34d399;
+  --color-accent-contrast: #000000;
+  --color-accent-shadow: rgba(52, 211, 153, 0.3);
 }
 
 /* Base Styles */
@@ -148,7 +152,7 @@ a:hover {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: var(--color-accent);
-  color: #000;
+  color: var(--color-accent-contrast);
   border-radius: 2rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -199,7 +203,7 @@ a:hover {
 
 .btn-primary {
   background: var(--color-accent);
-  color: #000;
+  color: var(--color-accent-contrast);
 }
 
 .btn-primary:hover {
@@ -214,7 +218,7 @@ a:hover {
 
 .btn-secondary:hover {
   background: var(--color-accent);
-  color: #000;
+  color: var(--color-accent-contrast);
   opacity: 1;
 }
 
@@ -455,14 +459,14 @@ strong {
 .social-grid a:hover {
   border-color: var(--color-accent);
   background: var(--color-accent);
-  color: #000;
+  color: var(--color-accent-contrast);
   transform: translateY(-2px);
   opacity: 1;
-  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.3);
+  box-shadow: 0 4px 12px var(--color-accent-shadow);
 }
 
 .social-grid a:hover i {
-  color: #000;
+  color: var(--color-accent-contrast);
 }
 
 .social-grid i {
