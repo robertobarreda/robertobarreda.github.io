@@ -58,22 +58,29 @@ experience:
     period: "January 2024 – Present"
     location: "Remote"
     current: true
-    description: "Leading a team of 6 engineers building services for the AITRIOS platform, enabling seamless deployment of third-party AI models and WASM applications to edge devices at scale."
+    description: >
+      Leading a team building inference infrastructure for AI workloads in private datacenters.
+      Previously led services for Sony's AITRIOS platform, managing smart edge devices
+      and deploying third-party AI models and WASM applications at scale.
     achievements:
-      - "Architected integration pipeline handling 50+ AI model deployments, reducing onboarding time from weeks to days and increasing platform adoption by 40%"
-      - "Designed and implemented WASM runtime orchestration on Kubernetes, supporting 10K+ edge devices with 99.9% deployment success rate"
-      - "Established CI/CD pipelines with automated testing, improving deployment frequency by 3x while reducing production incidents by 60%"
-      - "Led technical design reviews and mentored 4 junior engineers on cloud-native architecture patterns and edge computing best practices"
+      - "Built Go services and Kubernetes orchestration to provision GPU hardware and run inference workloads"
+      - "Built inference services with vLLM, including model selection and tuning, semantic routing, packaging, deployment, and observability"
+      - "Integrated 50+ AI models and deployed WASM runtimes on Kubernetes across 10K+ edge devices. Cut model onboarding from weeks to days, increased adoption by 40%, and achieved a 99.9% deployment success rate"
+      - "Established CI/CD and automated testing, 3x deployment frequency and reducing production incidents by 60%"
+      - "Led design reviews and mentored 4 engineers on cloud-native architecture and edge computing"
     technologies:
       - "Java"
       - "Python"
+      - "Golang"
+      - "vLLM"
+      - "GPU infrastructure"
       - "Kubernetes"
       - "Azure"
       - "Terraform"
       - "SQL"
       - "Prometheus"
       - "GitOps"
-      - "Edge AI"
+      - "IaC"
 
   - company: "Netskope"
     companyUrl: "https://netskope.com/products/remote-browser-isolation"
