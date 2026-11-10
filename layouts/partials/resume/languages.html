@@ -1,7 +1,20 @@
 <!-- Languages -->
 <h3>Languages</h3>
-<ul>
-    {{ range .Site.Data.resume.languages }}
-    <li><span class="flag">{{ .flag }}</span> <strong>{{ .name }}</strong> — {{ .level }}</li>
-    {{ end }}
-</ul>
+{{ $languages := .Site.Data.resume.languages }}
+{{ $perColumn := div (add (len $languages) 1) 2 }}
+<table class="languages-table">
+    <tbody>
+        {{ range $i, $left := first $perColumn $languages }}
+        <tr>
+            <td class="language-name"><span class="flag">{{ $left.flag }}</span> <strong>{{ $left.name }}</strong></td>
+            <td class="language-level">{{ $left.level }}</td>
+            {{ if lt (add $i $perColumn) (len $languages) }}
+            {{ with index $languages (add $i $perColumn) }}
+            <td class="language-name"><span class="flag">{{ .flag }}</span> <strong>{{ .name }}</strong></td>
+            <td class="language-level">{{ .level }}</td>
+            {{ end }}
+            {{ end }}
+        </tr>
+        {{ end }}
+    </tbody>
+</table>
