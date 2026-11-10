@@ -122,6 +122,18 @@ To test how the CV looks when printed:
 2. Press `Ctrl+P` (or `Cmd+P` on Mac)
 3. Check formatting and readability
 
+### Updating the PDF
+
+Build the site and print the page to PDF with headless Chromium:
+
+```bash
+hugo server --disableLiveReload &
+chromium --headless --no-sandbox \
+  --no-pdf-header-footer \
+  --print-to-pdf=static/assets/cv/Roberto_Barreda_CV.pdf \
+  http://localhost:1313/
+```
+
 ## Deployment
 
 The site is static HTML/CSS/JS. Deploy `public/` folder to any static hosting:
